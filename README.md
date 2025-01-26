@@ -1,5 +1,5 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=40&pause=1000&color=F7F7F7&width=435&lines=Eduardo+Frontend+Developer;Eduardo+Backend+Developer)](https://git.io/typing-svg)
 # 👋 Hello! Welcome to my GitHub Profile
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=40&pause=1000&color=F7F7F7&width=600&height=80&lines=Eduardo+Frontend+Developer;Eduardo+Backend+Developer)](https://git.io/typing-svg)
 
 ### About Me
 Hi! I'm Eduardo Augusto, a beginner developer with **1.5 years of experience** in web development. My focus is on building modern, efficient, and scalable web applications while constantly improving my skills. Here's my current tech stack:
