@@ -1,67 +1,68 @@
 # 👋 Hello! Welcome to my GitHub Profile
 
 ### About Me
-Hi! I'm a passionate developer with a focus on building modern, efficient, and scalable web applications. My tech stack includes:
+Hi! I'm Eduardo Augusto, a beginner developer with **1.5 years of experience** in web development. My focus is on building modern, efficient, and scalable web applications while constantly improving my skills. Here's my current tech stack:
 
 - **Languages:** ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)  
 - **Frontend Framework:** ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)  
 - **Backend Framework:** ![Fastify](https://img.shields.io/badge/-Fastify-000000?style=flat&logo=fastify&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)  
 
-I'm constantly learning and exploring new technologies to improve my craft and deliver high-quality solutions.
+I love learning new technologies and solving challenging problems through code. 💻
 
 ---
 
 ### 🚀 My Skills
 
 #### Frontend Development:
-- Crafting intuitive and dynamic user interfaces with ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
-- Writing clean, maintainable, and scalable code
-- Strong focus on accessibility and performance
+- Building dynamic user interfaces with ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
+- Writing clean and maintainable code
+- Prioritizing accessibility and responsiveness
 
 #### Backend Development:
-- Building fast and reliable REST APIs with ![Fastify](https://img.shields.io/badge/-Fastify-000000?style=flat&logo=fastify&logoColor=white)
+- Creating fast and secure REST APIs with ![Fastify](https://img.shields.io/badge/-Fastify-000000?style=flat&logo=fastify&logoColor=white)
 - Designing scalable architectures with ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
-- Secure authentication and efficient database integration
+- Handling database integration and authentication
 
 #### Other Tools:
 - Version control with ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-- Package management with ![npm](https://img.shields.io/badge/-npm-CB3837?style=flat&logo=npm&logoColor=white) and ![Yarn](https://img.shields.io/badge/-Yarn-2C8EBB?style=flat&logo=yarn&logoColor=white)
-- Code bundling with ![Webpack](https://img.shields.io/badge/-Webpack-8DD6F9?style=flat&logo=webpack&logoColor=black) and ![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat&logo=vite&logoColor=white)
+- Managing dependencies with ![npm](https://img.shields.io/badge/-npm-CB3837?style=flat&logo=npm&logoColor=white)
+- Modern bundling tools like ![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat&logo=vite&logoColor=white)
 
 ---
 
 ### 🌱 Currently Learning
-- Advanced patterns in ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black) and ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-- Optimizing backend performance with ![Fastify](https://img.shields.io/badge/-Fastify-000000?style=flat&logo=fastify&logoColor=white) plugins
-- Testing frameworks like ![Jest](https://img.shields.io/badge/-Jest-C21325?style=flat&logo=jest&logoColor=white) and ![Cypress](https://img.shields.io/badge/-Cypress-17202C?style=flat&logo=cypress&logoColor=white)
+- Strengthening skills in ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black) and ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+- Testing frameworks like ![Jest](https://img.shields.io/badge/-Jest-C21325?style=flat&logo=jest&logoColor=white)
+- Exploring advanced backend techniques with ![Fastify](https://img.shields.io/badge/-Fastify-000000?style=flat&logo=fastify&logoColor=white)
 
 ---
 
 ### 📈 GitHub Stats
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical)
+![Eduardo's GitHub Stats](https://github-readme-stats.vercel.app/api?username=D3vEduardo&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=D3vEduardo&layout=compact&theme=radical)
 
 ---
 
 ### 📫 How to Reach Me
-- **Email:** [eduardoaugustolimabueno@outlook.com.br](mailto:eduardoaugustolimabueno@outlook.com.br)
-- **Portfolio:** [Your Portfolio](https://eduardoaugusto.vercel.com)  
+- **Email:** [eduardoaugustolimabueno@outlook.com.br](mailto:eduardoaugustolimabueno@outlook.com.br)  
+- **Portfolio:** [My Portfolio](https://eduardoaugusto.vercel.app)  
 
-Feel free to connect with me to discuss exciting projects, collaborations, or anything tech-related!
+I'm always open to discussing exciting projects, collaborations, or anything tech-related. Let's connect! 🌟
 
 ---
 
-### 🛠️ Projects
-Check out some of my projects below:
-- **[Landing Page for RA Instalações Elétricas](https://github.com/D3vEduardo/RaWEbsite):** A brief description of the project.
-- **[SevenChat Backend](https://github.com/D3vEduardo/SevenChatAPI):** A brief description of the project.
-- **[Project Name 3](https://github.com/D3vEduardo/SevenChatWebsite):** A brief description of the project.
+### 🛠️ Featured Projects
+Here are some of the projects I've worked on:
+
+- **[Landing Page for RA Instalações Elétricas](https://github.com/D3vEduardo/RaWEbsite):** A clean and professional website showcasing electrical installation services.
+- **[SevenChat Backend](https://github.com/D3vEduardo/SevenChatAPI):** The backend for a real-time chat application built with Fastify and Node.js.
+- **[SevenChat Frontend](https://github.com/D3vEduardo/SevenChatWebsite):** The frontend for the chat application, developed using React.
 
 ---
 
 ### 🌟 Fun Fact
-I believe there's always a way to make code cleaner and more efficient. The process of continuous improvement drives my passion for development.
+I'm an advocate for clean code and believe in the power of simplicity and continuous learning. Every small improvement makes a big difference!
 
 ---
 
-Thank you for stopping by! Feel free to explore my repositories and don’t hesitate to reach out!
+Thank you for visiting my profile! Feel free to explore my repositories and get in touch if you'd like to collaborate. 🚀
