@@ -1,3 +1,4 @@
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=40&pause=1000&color=F7F7F7&width=435&lines=Eduardo+Frontend+Developer;Eduardo+Backend+Developer)](https://git.io/typing-svg)
 # 👋 Hello! Welcome to my GitHub Profile
 
 ### About Me
