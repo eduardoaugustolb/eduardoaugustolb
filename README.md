@@ -33,7 +33,6 @@ I love learning new technologies and solving challenging problems through code. 
 
 ### 🌱 Currently Learning
 - Strengthening skills in ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black) and ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-- Testing frameworks like ![Jest](https://img.shields.io/badge/-Jest-C21325?style=flat&logo=jest&logoColor=white)
 - Exploring advanced backend techniques with ![Fastify](https://img.shields.io/badge/-Fastify-000000?style=flat&logo=fastify&logoColor=white)
 
 ---
