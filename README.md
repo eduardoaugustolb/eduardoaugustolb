@@ -38,7 +38,6 @@ I love learning new technologies and solving challenging problems through code. 
 ---
 
 ### 📈 GitHub Stats
-![Eduardo's GitHub Stats](https://github-readme-stats.vercel.app/api?username=D3vEduardo&show_icons=true&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=D3vEduardo&layout=compact&theme=radical)
 
 ---
