@@ -1,4 +1,3 @@
-font=Poppins&weight=600&size=40&pause=1000&color=F7F7F7&center=true&vCenter=true&width=600&height=40&lines=Eduardo+Frontend+Developer;Eduardo+Backend+Developer)](https://github.com/D3vEduardo)
 # 👋 Hello! Welcome to my GitHub Profile
 
 ### About Me
