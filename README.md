@@ -53,8 +53,6 @@ I'm always open to discussing exciting projects, collaborations, or anything tec
 Here are some of the projects I've worked on:
 
 - **[Landing Page for RA Instalações Elétricas](https://github.com/D3vEduardo/RaWEbsite):** A clean and professional website showcasing electrical installation services.
-- **[SevenChat Backend](https://github.com/D3vEduardo/SevenChatAPI):** The backend for a real-time chat application built with Fastify and Node.js.
-- **[SevenChat Frontend](https://github.com/D3vEduardo/SevenChatWebsite):** The frontend for the chat application, developed using React.
 
 ---
 
