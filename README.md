@@ -1,64 +1,68 @@
-# 👋 Hello! Welcome to my GitHub Profile
+# 👋 Olá! Seja bem-vindo(a) ao meu perfil no GitHub!
 
-### About Me
-Hi! I'm Eduardo Augusto, a beginner developer with **1.5 years of experience** in web development. My focus is on building modern, efficient, and scalable web applications while constantly improving my skills. Here's my current tech stack:
+### 👨‍💻 Sobre mim
+Oi, sou **Eduardo Augusto**, desenvolvedor web com 2 anos de experiência. Meu foco é criar aplicações web modernas, rápidas e escaláveis, sempre buscando aprimorar minhas habilidades e aprender coisas novas no caminho.
 
-- **Languages:** ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)  
-- **Frontend Framework:** ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)  
-- **Backend Framework:** ![Fastify](https://img.shields.io/badge/-Fastify-000000?style=flat&logo=fastify&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)  
+- **Linguagens:**  
+  ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 
-I love learning new technologies and solving challenging problems through code. 💻
+- **Frontend:**  
+  ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
 
----
+- **Backend:**  
+  ![Fastify](https://img.shields.io/badge/-Fastify-000000?style=flat&logo=fastify&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
 
-### 🚀 My Skills
-
-#### Frontend Development:
-- Building dynamic user interfaces with ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
-- Writing clean and maintainable code
-- Prioritizing accessibility and responsiveness
-
-#### Backend Development:
-- Creating fast and secure REST APIs with ![Fastify](https://img.shields.io/badge/-Fastify-000000?style=flat&logo=fastify&logoColor=white)
-- Designing scalable architectures with ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
-- Handling database integration and authentication
-
-#### Other Tools:
-- Version control with ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-- Managing dependencies with ![npm](https://img.shields.io/badge/-npm-CB3837?style=flat&logo=npm&logoColor=white)
-- Modern bundling tools like ![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat&logo=vite&logoColor=white)
+Sou apaixonado por resolver problemas complexos através do código e sempre aberto a aprender novas tecnologias. 💡
 
 ---
 
-### 🌱 Currently Learning
-- Strengthening skills in ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black) and ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-- Exploring advanced backend techniques with ![Fastify](https://img.shields.io/badge/-Fastify-000000?style=flat&logo=fastify&logoColor=white)
+### 🚀 Minhas habilidades
+
+#### 💻 Desenvolvimento Frontend:
+- Criação de interfaces dinâmicas com **React**.
+- Prática em escrever código limpo, legível e escalável.
+- Compromisso com **acessibilidade** e **responsividade**.
+
+#### ⚙️ Desenvolvimento Backend:
+- Construção de **APIs rápidas** e seguras com **Fastify**.
+- Design de arquiteturas **escaláveis** com **Node.js**.
+
+#### 🛠️ Outras habilidades:
+- Controle de versão com **Git**.
+- Gerenciamento de dependências com **npm**.
+- Utilização de ferramentas modernas de build, como **Vite**.
 
 ---
 
-### 📈 GitHub Stats
+### 🌱 Estudando atualmente:
+- Aprofundando meus conhecimentos em **React** e **TypeScript**.
+- Explorando mais sobre **técnicas avançadas de back-end** com **Fastify**.
+
+---
+
+### 📊 GitHub Stats
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=D3vEduardo&layout=compact&theme=radical)
 
 ---
 
-### 📫 How to Reach Me
+### 📫 Como me encontrar:
 - **Email:** [eduardoaugustolimabueno@outlook.com.br](mailto:eduardoaugustolimabueno@outlook.com.br)  
-- **Portfolio:** [My Portfolio](https://eduardoaugusto.vercel.app)  
+- **Portfólio:** [Meu Portfólio](https://eduardoaugusto.vercel.app)
 
-I'm always open to discussing exciting projects, collaborations, or anything tech-related. Let's connect! 🌟
+Estou sempre disposto a conversar sobre projetos interessantes, colaborar ou discutir qualquer assunto de tecnologia. Vamos nos conectar! 🚀
 
 ---
 
-### 🛠️ Featured Projects
-Here are some of the projects I've worked on:
+### 🛠️ Projetos em destaque
+Aqui estão alguns dos meus projetos:
 
-- **[Landing Page for RA Instalações Elétricas](https://github.com/D3vEduardo/RaWEbsite):** A clean and professional website showcasing electrical installation services.
+- **[Landing Page para RA Instalações Elétricas](https://github.com/D3vEduardo/RaWEbsite):** Um site limpo e profissional destacando serviços de instalações elétricas.
 
 ---
 
 ### 🌟 Fun Fact
-I'm an advocate for clean code and believe in the power of simplicity and continuous learning. Every small improvement makes a big difference!
+Sou um grande defensor do **código limpo** e acredito no poder da **simplesidade** e do **aprendizado contínuo**. Cada pequena melhoria tem um impacto gigantesco no resultado final! 💪🚀
 
 ---
 
-Thank you for visiting my profile! Feel free to explore my repositories and get in touch if you'd like to collaborate. 🚀
+Obrigado por visitar meu perfil! Explore meus repositórios e entre em contato se quiser colaborar! Vamos crescer juntos! ✨
