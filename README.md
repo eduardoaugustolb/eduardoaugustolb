@@ -1,5 +1,5 @@
 <img src="./imgs/banner.png" align="top">
-<p align="top">👋 Olá! Seja bem-vindo(a) ao meu perfil no GitHub!</p>
+<h1 align="top">👋 Olá! Seja bem-vindo(a) ao meu perfil no GitHub!</h1>
 
 ### 👨‍💻 Sobre mim
 Oi, sou **Eduardo Augusto**, desenvolvedor web com 2 anos de experiência. Meu foco é criar aplicações web modernas, rápidas e escaláveis, sempre buscando aprimorar minhas habilidades e aprender coisas novas no caminho.
