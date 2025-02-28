@@ -1,4 +1,4 @@
-<img src="./imgs/banner.png">
+<img src="./imgs/banner.png" width="100vw">
 # 👋 Olá! Seja bem-vindo(a) ao meu perfil no GitHub!
 
 ### 👨‍💻 Sobre mim
