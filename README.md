@@ -1,4 +1,4 @@
-<img src="./imgs/banner.png" align="top" height="400rem">
+<img src="./imgs/banner.png" align="top" height="200em">
 # 👋 Olá! Seja bem-vindo(a) ao meu perfil no GitHub!
 
 ### 👨‍💻 Sobre mim
