@@ -1,4 +1,3 @@
-<img src="./imgs/banner.png" align="top">
 <h1 align="top">👋 Olá! Seja bem-vindo(a) ao meu perfil no GitHub!</h1>
 
 ### 👨‍💻 Sobre mim
@@ -67,3 +66,4 @@ Sou um grande defensor do **código limpo** e acredito no poder da **simplesidad
 ---
 
 Obrigado por visitar meu perfil! Explore meus repositórios e entre em contato se quiser colaborar! Vamos crescer juntos! ✨
+<img src="./imgs/banner.png" align="center">
