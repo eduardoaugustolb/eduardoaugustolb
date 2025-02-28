@@ -1,3 +1,4 @@
+<img src="./imgs/banner.png">
 # 👋 Olá! Seja bem-vindo(a) ao meu perfil no GitHub!
 
 ### 👨‍💻 Sobre mim
