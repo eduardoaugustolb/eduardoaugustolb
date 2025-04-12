@@ -58,7 +58,7 @@ Aqui estão alguns dos meus projetos:
 
 - **RA Instalações Elétricas**
   - **[Landing Page](https://github.com/D3vEduardo/RaWebsite):** Um site limpo e profissional destacando serviços de instalações elétricas.
-  - **[API Rest](https://github.com/D3vEduardo/RaAPI):** Uma API Rest para o sistema de avaliações.
+  - **[API Rest](https://github.com/D3vEduardo/RaAPI):** Uma API Rest para o sistema de avaliações dos clientes.
 
 ---
 
