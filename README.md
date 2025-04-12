@@ -66,4 +66,4 @@ Sou um grande defensor do **código limpo** e acredito no poder da **simplesidad
 ---
 
 ### Obrigado por visitar meu perfil! Explore meus repositórios e entre em contato se quiser colaborar! Vamos crescer juntos! ✨
-<p align="center"><img src="https://github.com/D3vEduardo/D3vEduardo/blob/main/github_readme.png?raw=true" /></p>
+<a href="https://github.com/d3veduardo" align="center"><img src="https://github.com/D3vEduardo/D3vEduardo/blob/main/github_readme.png?raw=true" /></a>
