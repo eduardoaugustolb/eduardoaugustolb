@@ -56,7 +56,9 @@ Estou sempre disposto a conversar sobre projetos interessantes, colaborar ou dis
 ### 🛠️ Projetos em destaque
 Aqui estão alguns dos meus projetos:
 
-- **[Landing Page para RA Instalações Elétricas](https://github.com/D3vEduardo/RaWEbsite):** Um site limpo e profissional destacando serviços de instalações elétricas.
+- **RA Instalações Elétricas**
+  - **[Landing Page](https://github.com/D3vEduardo/RaWebsite):** Um site limpo e profissional destacando serviços de instalações elétricas.
+  - **[API Rest](https://github.com/D3vEduardo/RaAPI):** Uma API Rest para o sistema de avaliações.
 
 ---
 
