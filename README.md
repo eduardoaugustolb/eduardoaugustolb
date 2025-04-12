@@ -66,4 +66,4 @@ Sou um grande defensor do **código limpo** e acredito no poder da **simplesidad
 ---
 
 ### Obrigado por visitar meu perfil! Explore meus repositórios e entre em contato se quiser colaborar! Vamos crescer juntos! ✨
-<p align="center"><img src="./images/github_readme.png" /></p>
+<p align="center"><img src="./imgs/github_readme.png" /></p>
