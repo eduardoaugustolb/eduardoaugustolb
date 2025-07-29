@@ -1,10 +1,6 @@
-# ✨ Eduardo Augusto | Desenvolvedor Web Front-End
+# ✨ Eduardo Augusto | Desenvolvedor Web Full Stack
 
-<div align="center">
-  
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&random=false&width=600&lines=Transformando+ideias+em+experiências+web;Código+limpo+%7C+Performance+%7C+Escalabilidade;Sempre+aprendendo%2C+sempre+evoluindo)
-
-</div>
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=A855F7&center=false&vCenter=true&random=false&width=600&lines=Transformando+ideias+em+experiências+web;Código+limpo+%7C+Performance+%7C+Escalabilidade;Sempre+aprendendo%2C+sempre+evoluindo)
 
 ---
 
@@ -24,8 +20,6 @@ Desde 2023, dedico-me a construir aplicações web modernas, rápidas e escaláv
 ---
 
 ## 🛠️ Stack Tecnológica
-
-<div align="center">
 
 ### Frontend
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB&border_radius=10)
@@ -47,13 +41,9 @@ Desde 2023, dedico-me a construir aplicações web modernas, rápidas e escaláv
 ![React Query](https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
 ![React Hook Form](https://img.shields.io/badge/React_Hook_Form-EC5990?style=for-the-badge&logo=reacthookform&logoColor=white)
 
-</div>
-
 ---
 
 ## 📈 Crescimento Contínuo
-
-<div align="center">
 
 **Atualmente estudando e aperfeiçoando:**
 - 🔥 React avançado e padrões de arquitetura
@@ -61,37 +51,25 @@ Desde 2023, dedico-me a construir aplicações web modernas, rápidas e escaláv
 - ⚡ Next.js e renderização server-side
 - 🔧 Arquiteturas backend escaláveis com Fastify
 
-</div>
-
 ---
 
 ## 📊 Estatísticas GitHub
 
-<div align="center">
-  
 ![Eduardo's GitHub stats](https://github-readme-stats.vercel.app/api?username=d3veduardo&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&bg_color=0D1117&title_color=A855F7&icon_color=A855F7&text_color=C9D1D9)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=d3veduardo&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&bg_color=0D1117&title_color=A855F7&text_color=C9D1D9)
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=d3veduardo&theme=tokyonight&hide_border=true&border_radius=10&background=0D1117&ring=A855F7&fire=A855F7&currStreakLabel=A855F7)
 
-</div>
-
 ---
 
 ## 🏆 Conquistas
 
-<div align="center">
-  
 ![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=d3veduardo&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&border_radius=10)
-
-</div>
 
 ---
 
 ## 💬 Vamos Conversar?
-
-<div align="center">
 
 **Pronto para transformar sua ideia em realidade digital?**
 
@@ -100,13 +78,9 @@ Desde 2023, dedico-me a construir aplicações web modernas, rápidas e escaláv
 [![X (Twitter)](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/the_duh7)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@eduardo.developer)
 
-</div>
-
 ---
 
 ## 🎯 Serviços que Ofereço
-
-<div align="center">
 
 | 🌐 **Desenvolvimento Web** | 📱 **Aplicações Responsivas** | ⚡ **Performance** |
 |:---:|:---:|:---:|
@@ -114,11 +88,7 @@ Desde 2023, dedico-me a construir aplicações web modernas, rápidas e escaláv
 | **🔧 APIs Robustas** | **🎨 UI/UX Focada** | **📈 Escalabilidade** |
 | Backend seguro e rápido | Interfaces intuitivas | Arquitetura preparada |
 
-</div>
-
 ---
-
-<div align="center">
 
 ### 💭 Filosofia de Desenvolvimento
 
@@ -131,5 +101,3 @@ Desde 2023, dedico-me a construir aplicações web modernas, rápidas e escaláv
 ![Profile Views](https://komarev.com/ghpvc/?username=d3veduardo&color=blueviolet&style=for-the-badge&border_radius=10)
 
 *✨ Transformando códigos em experiências extraordinárias desde 2023*
-
-</div>
