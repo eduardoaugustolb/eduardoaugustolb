@@ -56,8 +56,6 @@ Desde 2023, dedico-me a construir aplicações web modernas, rápidas e escaláv
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=d3veduardo&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&bg_color=0D1117&title_color=A855F7&text_color=C9D1D9)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=d3veduardo&theme=aura&locale=pt_BR&mode=weekly)](https://github.com/d3veduardo)
-
 ---
 
 ## 🏆 Conquistas
