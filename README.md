@@ -1,6 +1,5 @@
-# ✨ Eduardo Augusto | Desenvolvedor Web Full Stack
-
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Space+Grotesk&weight=700&size=24&duration=3000&color=A855F7&vCenter=true&width=600&lines=Transformando+ideias+em+experi%C3%AAncias+web!;C%C3%B3digo+limpo+%7C+Performance+%7C+Escalabilidade;Sempre+aprendendo%2C+sempre+evoluindo!)
+# ✨ Eduardo Augusto | Desenvolvedor Web Front-End
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=700&size=24&duration=3000&pause=1000&color=A855F7&vCenter=true&width=600&lines=%3E+Transformando+ideias+em+experi%C3%AAncias+web!;%3E+C%C3%B3digo+limpo+%7C+Performance+%7C+Escalabilidade;%3E+Sempre+aprendendo%2C+sempre+evoluindo!)](https://git.io/typing-svg)
 
 ## 🚀 Sobre Mim
 
