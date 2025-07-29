@@ -1,5 +1,5 @@
 # ✨ Eduardo Augusto | Desenvolvedor Web Front-End
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=700&size=24&duration=3000&pause=1000&color=A855F7&vCenter=true&width=600&lines=%3E+Transformando+ideias+em+experi%C3%AAncias+web!;%3E+C%C3%B3digo+limpo+%7C+Performance+%7C+Escalabilidade;%3E+Sempre+aprendendo%2C+sempre+evoluindo!)](https://github.com/d3veduardo)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=700&size=24&duration=3000&pause=1000&color=A855F7&vCenter=true&width=600&lines=%3E+Transformando+ideias+em+experi%C3%AAncias+web!;%3E+C%C3%B3digo+limpo+%7C+Performance+%7C+Escalabilidade;%3E+Sempre+aprendendo%2C+sempre+evoluindo!)
 
 ## 🚀 Sobre Mim
 
@@ -56,7 +56,7 @@ Desde 2023, dedico-me a construir aplicações web modernas, rápidas e escaláv
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=d3veduardo&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&bg_color=0D1117&title_color=A855F7&text_color=C9D1D9)
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=d3veduardo&theme=tokyonight&hide_border=true&border_radius=10&background=0D1117&ring=A855F7&fire=A855F7&currStreakLabel=A855F7)
+![GitHub Streak](https://streak-stats.demolab.com?user=d3veduardo&theme=aura&locale=pt_BR&mode=weekly)
 
 ---
 
