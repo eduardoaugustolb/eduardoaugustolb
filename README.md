@@ -96,3 +96,5 @@ Desde 2023, dedico-me a construir aplicações web modernas, rápidas e escaláv
 ![Profile Views](https://komarev.com/ghpvc/?username=d3veduardo&color=blueviolet&style=for-the-badge&border_radius=10)
 
 *✨ Transformando códigos em experiências extraordinárias desde 2023*
+
+![Footer](https://github.com/D3vEduardo/D3vEduardo/blob/main/banner.png?raw=true)
