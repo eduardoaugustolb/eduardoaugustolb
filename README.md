@@ -39,10 +39,7 @@
 
 ### 📊 GitHub Stats & Activity
 
-<p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=eduardoaugustolb&show_icons=true&theme=apprentice&hide_border=true" alt="Estatísticas Gerais" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eduardoaugustolb&layout=compact&theme=apprentice&hide_border=true&show_icons=true" alt="Linguagens" />
-</p>
+ ![Atividade no Gráfico do Github](https://github-readme-activity-graph.vercel.app/graph?username=eduardoaugustolb&bg_color=121200&color=ffffc3&point=ffffaf&line=616100&hide_border=true&custom_title=Eduardo%20Augusto's%20Contribution&day=30)
 
 ---
 
