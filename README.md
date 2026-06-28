@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=ffffaf&text=Eduardo%20Augusto&fontSize=50" alt="Banner Eduardo Augusto" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=626201&text=Eduardo%20Augusto&fontSize=50&fontColor=ffffaf&desc=Front-End%20Developer%20|%20Next.js%20e%20TypeScript%20Developer&fontAlignY=30&descAlignY=50" alt="Banner Eduardo Augusto" />
 </div>
 
 # Front-End Developer | Next.js & TypeScript Developer 🚀
