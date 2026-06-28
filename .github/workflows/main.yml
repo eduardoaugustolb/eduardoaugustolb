@@ -22,7 +22,8 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg?palette=github-light # Versão clara padrão
-            dist/github-snake-custom-dark.svg?color_snake=#616100&color_dots=#121200,#ffffc3,#ffffc3,#ffffaf,#ffffaf # Versão escura personalizada
+            dist/github-snake-custom-dark.svg?color_snake=#616100&color_dots=#121200,#333300,#666600,#999900,#ffffaf # Versão escura personalizada
+
           
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
