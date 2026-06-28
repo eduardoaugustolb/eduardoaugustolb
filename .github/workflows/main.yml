@@ -28,7 +28,7 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg?palette=github-light
-            dist/github-snake-custom-dark.svg?color_snake=#616100&color_dots=#121200,#333300,#666600,#999900,#ffffaf
+            dist/github-snake-custom-dark.svg?color_snake=#616100&color_dots=#121200,#313101,#626201,#ffffaf,#ffffff
           
       # Envia os arquivos gerados para a branch 'output'
       - name: push github-contribution-grid-snake.svg to the output branch
