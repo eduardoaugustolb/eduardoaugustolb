@@ -42,7 +42,7 @@
  ![Atividade no Gráfico do Github](https://github-readme-activity-graph.vercel.app/graph?username=eduardoaugustolb&bg_color=121200&color=ffffc3&point=ffffaf&line=616100&hide_border=true&custom_title=Eduardo%20Augusto's%20Contribution&day=30)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/eduardoaugustolb/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/eduardoaugustolb/output/github-snake-custom-dark.svg" />
   <source media="(prefers-color-scheme: light )" srcset="https://raw.githubusercontent.com/eduardoaugustolb/eduardoaugustolb/output/github-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/eduardoaugustolb/eduardoaugustolb/output/github-snake.svg" />
 </picture>
