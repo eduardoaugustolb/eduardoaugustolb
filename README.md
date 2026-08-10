@@ -11,7 +11,7 @@
 
   <br />
 
-  **Disponível agora para freelance** — [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
+  **Disponível agora para freelance:** [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
 
   <br />
 
