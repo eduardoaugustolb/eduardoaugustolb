@@ -11,7 +11,7 @@
 
   <br />
 
-  **Disponível para:** Freelance em desenvolvimento frontend e backend
+  **Disponível agora para freelance** — [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
 
   <br />
 
@@ -108,7 +108,9 @@ Sistema de automação de afiliados (Drops do Frost), construído com Clean Arch
 - Otimização de performance web
 - Consultoria frontend
 
-[email](mailto:contato@eduardoaugusto.work) &nbsp;·&nbsp;
+> **Tem um projeto em mente? Me manda os detalhes.**
+> [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
+
 [discord](https://discord.com/users/909580127644549201) &nbsp;·&nbsp;
 [youtube](https://www.youtube.com/@eduardo.developer) &nbsp;·&nbsp;
 [instagram](https://www.instagram.com/eduardoaugustolb/)
@@ -119,6 +121,6 @@ Sistema de automação de afiliados (Drops do Frost), construído com Clean Arch
 
 **Desenvolvedor de Verdade. Código de Verdade.**
 
-_Procurando alguém para seu projeto?_ [Mande uma mensagem](mailto:contato@eduardoaugusto.work)
+[**contato@eduardoaugusto.work**](mailto:contato@eduardoaugusto.work)
 
 </div>
