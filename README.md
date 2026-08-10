@@ -20,7 +20,7 @@
 
 <br clear="right" />
 
-## <img src="./hd-projeto.svg" width="620" alt="Projeto Principal" />
+## <img src="./hd-projetos.svg" width="620" alt="Projetos" />
 
 ### **Versum** - Aplicação de Leitura de Bíblia Moderna
 
@@ -35,7 +35,17 @@ Uma aplicação web que transforma a experiência de leitura bíblica. Funciona 
 
 **GitHub:** [Versum Repository](https://github.com/eduardoaugustolb/versum)
 
----
+### **Affiliate Hub** - Automação de Afiliados
+
+Sistema de automação de afiliados (Drops do Frost), construído com Clean Architecture e arquitetura Hexagonal.
+
+**Tecnologias:**
+- **Linguagem:** TypeScript
+- **Runtime:** Bun
+- **Arquitetura:** Clean Architecture + Hexagonal
+- **Status:** Em desenvolvimento ativo
+
+**GitHub:** [Affiliate Hub Repository](https://github.com/eduardoaugustolb/affiliate-hub)
 
 ## <img src="./hd-stack.svg" width="620" alt="Tech Stack - O Que Eu Domino" />
 
@@ -58,9 +68,7 @@ Uma aplicação web que transforma a experiência de leitura bíblica. Funciona 
 - **Package Managers:** Bun, npm
 - **Ambiente:** Linux (CachyOS)
 
----
-
-## <img src="./hd-motivos.svg" width="620" alt="Por Que Trabalhar Comigo" />
+## <img src="./hd-diferenciais.svg" width="620" alt="Por Que Trabalhar Comigo" />
 
 **Performance em Primeiro Lugar** - Otimizo Core Web Vitals e experiência do usuário
 
@@ -73,8 +81,6 @@ Uma aplicação web que transforma a experiência de leitura bíblica. Funciona 
 **Foco em Qualidade** - Código limpo, manutenível e escalável
 
 **Comunicação Clara** - Atualizações regulares e disponibilidade
-
----
 
 ## <img src="./hd-stats.svg" width="620" alt="GitHub Stats e Atividade" />
 
@@ -93,8 +99,6 @@ Uma aplicação web que transforma a experiência de leitura bíblica. Funciona 
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/eduardoaugustolb/output/github-snake.svg" />
   <img alt="GitHub Snake - Visualização de contribuições" src="https://raw.githubusercontent.com/eduardoaugustolb/eduardoaugustolb/output/github-snake.svg" />
 </picture>
-
----
 
 ## <img src="./hd-contato.svg" width="620" alt="Vamos nos Conectar" />
 
