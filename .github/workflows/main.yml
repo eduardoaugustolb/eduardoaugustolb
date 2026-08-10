@@ -1,9 +1,10 @@
 name: generate animation
 
 on:
-  # Executa automaticamente a cada 24 horas
+  # Executa automaticamente a cada 15 minutos (minimo permitido pelo GitHub e 5min,
+  # 15min da uma margem segura contra atrasos/skips em horarios de pico)
   schedule:
-    - cron: "0 * * * *"
+    - cron: "*/15 * * * *"
   
   # Permite execução manual a qualquer momento
   workflow_dispatch:
