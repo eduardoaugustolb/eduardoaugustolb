@@ -21,14 +21,14 @@ jobs:
     timeout-minutes: 5
     
     steps:
-      # Gera o jogo da cobrinha com as cores personalizadas extraídas do seu gráfico
+      # Gera o jogo da cobrinha na mesma paleta monocromática do retrato ASCII e dos gráficos de stats
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg?palette=github-light
-            dist/github-snake-custom-dark.svg?color_snake=#616100&color_dots=#121200,#313101,#626201,#ffffaf,#ffffff
+            dist/github-snake.svg?color_snake=#424a53&color_dots=#d8dee4,#8c959f,#6e7681,#424a53
+            dist/github-snake-custom-dark.svg?color_snake=#f0f6fc&color_dots=#30363d,#8b949e,#c9d1d9,#f0f6fc
           
       # Envia os arquivos gerados para a branch 'output'
       - name: push github-contribution-grid-snake.svg to the output branch
