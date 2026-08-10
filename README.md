@@ -1,11 +1,7 @@
-# Eduardo Augusto - Developer | Next.js, TypeScript & Backend 🚀
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=626201&text=Eduardo%20Augusto&fontSize=50&fontColor=ffffaf&desc=Front-End%20Developer%20|%20Next.js%20e%20TypeScript%20Developer&fontAlignY=30&descAlignY=50" alt="Banner Eduardo Augusto" />
-</div>
+# Eduardo Augusto - Developer | Next.js, TypeScript & Backend
 
 <p align="center">
-  <img align="right" height="180" src="https://avatars.githubusercontent.com/u/151971344?v=4" style="aspect-ratio: 1/1; margin-left: 20px;" alt="Eduardo Augusto" />
+  <img align="right" width="320" src="./ascii.svg" style="margin-left: 20px;" alt="Retrato de Eduardo Augusto em ASCII art" />
 
   Olá! Sou o **Eduardo**, desenvolvedor focado em criar **interfaces de alta performance** e **experiências de usuário impecáveis**.
 
@@ -16,15 +12,15 @@
   <br />
 
   **Disponível para:** Freelance em desenvolvimento frontend e backend
-</p>
 
-<img style="border-radius: 8px; margin-left: 20px;" src="https://komarev.com/ghpvc/?username=eduardoaugustolb&amp;color=262626&amp;style=for-the-badge&amp;abbreviated=true" alt="Profile views" />
+  <br />
+
+  <img src="./stats.svg" width="320" alt="Contribuições de Eduardo Augusto no GitHub no último ano" />
+</p>
 
 <br clear="right" />
 
----
-
-## 🎯 Projeto Principal
+## <img src="./hd-projeto.svg" width="620" alt="Projeto Principal" />
 
 ### **Versum** - Aplicação de Leitura de Bíblia Moderna
 
@@ -41,7 +37,7 @@ Uma aplicação web que transforma a experiência de leitura bíblica. Funciona 
 
 ---
 
-## 🛠️ Tech Stack - O Que Eu Domino
+## <img src="./hd-stack.svg" width="620" alt="Tech Stack - O Que Eu Domino" />
 
 ### **Frontend (Especialidade Principal)**
 - **Frameworks:** Next.js 16, React 19
@@ -64,25 +60,33 @@ Uma aplicação web que transforma a experiência de leitura bíblica. Funciona 
 
 ---
 
-## ✨ Por Que Trabalhar Comigo?
+## <img src="./hd-motivos.svg" width="620" alt="Por Que Trabalhar Comigo" />
 
-✅ **Performance em Primeiro Lugar** - Otimizo Core Web Vitals e experiência do usuário
+**Performance em Primeiro Lugar** - Otimizo Core Web Vitals e experiência do usuário
 
-✅ **Type Safety Total** - Código TypeScript tipo-seguro, menos bugs
+**Type Safety Total** - Código TypeScript tipo-seguro, menos bugs
 
-✅ **Stack Moderno** - Next.js 16, Hono, Bun, React 19
+**Stack Moderno** - Next.js 16, Hono, Bun, React 19
 
-✅ **Frontend + Backend** - Capaz de trabalhar full-stack quando necessário
+**Frontend + Backend** - Capaz de trabalhar full-stack quando necessário
 
-✅ **Foco em Qualidade** - Código limpo, manutenível e escalável
+**Foco em Qualidade** - Código limpo, manutenível e escalável
 
-✅ **Comunicação Clara** - Atualizações regulares e disponibilidade
+**Comunicação Clara** - Atualizações regulares e disponibilidade
 
 ---
 
-## 📊 GitHub Stats & Activity
+## <img src="./hd-stats.svg" width="620" alt="GitHub Stats e Atividade" />
 
-![Atividade no GitHub - Contribution Graph de Eduardo Augusto](https://github-readme-activity-graph.vercel.app/graph?username=eduardoaugustolb&amp;bg_color=121200&amp;color=ffffc3&amp;point=ffffaf&amp;line=616100&amp;hide_border=true&amp;custom_title=Eduardo%20Augusto's%20Contribution&amp;day=30)
+<div align="center">
+
+<img src="./streak.svg" width="620" alt="Streak atual e mais longo de contribuições de Eduardo Augusto" />
+
+<img src="./langs.svg" width="620" alt="Principais linguagens de Eduardo Augusto, por bytes e por repositório" />
+
+<img src="./year.svg" width="620" alt="O último ano de contribuições de Eduardo Augusto, um caractere por dia" />
+
+</div>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/eduardoaugustolb/output/github-snake-custom-dark.svg" />
@@ -92,7 +96,7 @@ Uma aplicação web que transforma a experiência de leitura bíblica. Funciona 
 
 ---
 
-## 📫 Vamos nos Conectar?
+## <img src="./hd-contato.svg" width="620" alt="Vamos nos Conectar" />
 
 **Disponível para projetos freelance em:**
 - Desenvolvimento Next.js
@@ -100,22 +104,10 @@ Uma aplicação web que transforma a experiência de leitura bíblica. Funciona 
 - Otimização de performance web
 - Consultoria frontend
 
-<p align="left">
-  <a href="mailto:contato@eduardoaugusto.work" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email - Enviar mensagem" />
-  </a>
-  <a href="https://discord.com/users/909580127644549201" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white" alt="Discord - Conectar" />
-  </a>
-  <a href="https://www.youtube.com/@eduardo.developer" target="_blank">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&amp;logo=youtube&amp;logoColor=white" alt="YouTube - Seguir" />
-  </a>
-  <a href="https://www.instagram.com/eduardoaugustolb/" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram - Seguir" />
-  </a>
-</p>
-
-<br />
+[email](mailto:contato@eduardoaugusto.work) &nbsp;·&nbsp;
+[discord](https://discord.com/users/909580127644549201) &nbsp;·&nbsp;
+[youtube](https://www.youtube.com/@eduardo.developer) &nbsp;·&nbsp;
+[instagram](https://www.instagram.com/eduardoaugustolb/)
 
 ---
 
