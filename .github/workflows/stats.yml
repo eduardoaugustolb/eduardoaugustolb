@@ -3,8 +3,10 @@ name: refresh stats
 # Sem trigger de push: este job commita stats.svg etc., e um trigger de push
 # faria a Action rodar de novo em cima do próprio commit.
 on:
+  # A cada 15 minutos (minimo permitido pelo GitHub e 5min, 15min evita atrasos
+  # em horarios de pico e mantem a consulta GraphQL bem longe do rate limit)
   schedule:
-    - cron: "17 5 * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 permissions:
