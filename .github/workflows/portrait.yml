@@ -1,0 +1,70 @@
+name: refresh portrait
+
+# Regera ascii.svg a partir do avatar atual do GitHub. O crop abaixo foi
+# ajustado manualmente pra essa foto especifica (rosto centralizado, sem o
+# paleto/gola preta) -- se o avatar mudar de enquadramento, rode manualmente
+# com um valor de "crop" diferente (Actions > refresh portrait > Run workflow).
+on:
+  schedule:
+    - cron: "26 6 * * *"
+  workflow_dispatch:
+    inputs:
+      crop:
+        description: "left,top,right,bottom (pixels no avatar original)"
+        required: false
+        default: "60,10,420,360"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-portrait
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # O rembg baixa um modelo de ~176MB na primeira execucao; cachear evita
+      # repetir esse download em toda run diaria.
+      - name: Cache rembg model
+        uses: actions/cache@v4
+        with:
+          path: ~/.u2net
+          key: u2net-model-v1
+
+      - name: Install dependencies
+        run: pip install --quiet pillow numpy opencv-python-headless rembg onnxruntime
+
+      - name: Download current avatar
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          avatar_url=$(gh api "users/${{ github.repository_owner }}" --jq .avatar_url)
+          curl -sL "${avatar_url}&s=800" -o /tmp/avatar.png
+
+      - name: Generate ASCII portrait
+        env:
+          CROP: ${{ github.event.inputs.crop || '60,10,420,360' }}
+        run: |
+          python3 scripts/make_portrait.py /tmp/avatar.png ascii.svg --crop "$CROP"
+          python3 scripts/embed_portrait_font.py
+
+      - name: Commit whatever changed
+        run: |
+          if [ -z "$(git status --porcelain -- ascii.svg)" ]; then
+            echo "no change"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ascii.svg
+          git commit -m "portrait: refresh ascii.svg from current avatar"
+          git push
