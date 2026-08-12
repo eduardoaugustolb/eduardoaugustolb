@@ -10,7 +10,7 @@
 
 Olá! Sou o **Eduardo**, desenvolvedor focado em criar **interfaces de alta performance** e **experiências de usuário impecáveis**.
 
-Minha especialidade é o ecossistema **React/Next.js** com forte foco em **Type Safety** e código limpo. Atualmente, estou desenvolvendo **Versum** - uma aplicação moderna de leitura bíblica com snap scroll, sincronização em nuvem e arquitetura escalável.
+Minha especialidade é o ecossistema **React/Next.js** com forte foco em **Type Safety** e código limpo. Atualmente, estou desenvolvendo o **Versum**, um leitor bíblico multiplataforma sem feed, sem curtidas e sem ranking, focado em ler no seu próprio ritmo.
 
 Conhecimento sólido em backends modernos (**Hono, Express, Fastify**) e sempre explorando novas tecnologias para resolver problemas reais.
 
@@ -18,28 +18,27 @@ Conhecimento sólido em backends modernos (**Hono, Express, Fastify**) e sempre 
 
 ## <img src="./hd-projetos.svg" width="620" alt="Projetos" />
 
-### **Versum** - Aplicação de Leitura de Bíblia Moderna
+### **Versum** - Leitor Bíblico Multiplataforma
 
-Uma aplicação web que transforma a experiência de leitura bíblica. Funciona como um feed estilo TikTok com **snap scroll fluido**, **progresso salvo na nuvem** e interface moderna.
+Uma forma de ler a Bíblia inteira no seu próprio ritmo, sem feed, sem curtidas e sem ranking. Autenticação por magic link, progresso sincronizado entre dispositivos, leitura offline no Android e compartilhamento de capítulos e versículos.
 
 **Tecnologias:**
-- **Frontend:** Next.js 16, React 19, TypeScript, Tailwind CSS
-- **Backend:** Hono.js, PostgreSQL, Drizzle ORM
-- **Cache:** Redis
-- **Runtime:** Bun
-- **Status:** Em desenvolvimento ativo
+- **Backend:** Go, PostgreSQL, Redis
+- **Web:** Next.js (planejado)
+- **Mobile:** React Native / Expo (planejado)
+- **Status:** Pré-alpha. Arquitetura e produto definidos, implementação começando pelo corpus bíblico
 
 **GitHub:** [Versum Repository](https://github.com/eduardoaugustolb/versum)
 
-### **Affiliate Hub** - Automação de Afiliados
+### **Affiliate Hub** - Drops do Frost
 
-Sistema de automação de afiliados (Drops do Frost), construído com Clean Architecture e arquitetura Hexagonal.
+Automação de ponta a ponta para um perfil de afiliados de streetwear e perfumes: sincroniza produtos e links (Shopee, Shein, Mercado Livre), gera imagens de post automaticamente e distribui novos produtos em um grupo de WhatsApp.
 
 **Tecnologias:**
 - **Linguagem:** TypeScript
 - **Runtime:** Bun
-- **Arquitetura:** Clean Architecture + Hexagonal
-- **Status:** Em desenvolvimento ativo
+- **Arquitetura:** Clean Architecture + Hexagonal (Ports & Adapters)
+- **Status:** Em desenvolvimento. Módulos de autenticação e catálogo de produtos já implementados
 
 **GitHub:** [Affiliate Hub Repository](https://github.com/eduardoaugustolb/affiliate-hub)
 
