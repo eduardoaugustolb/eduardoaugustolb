@@ -1,24 +1,20 @@
 # Eduardo Augusto - Developer | Next.js, TypeScript & Backend
 
-<p align="center">
-  <img align="right" width="320" src="./ascii.svg" style="margin-left: 20px;" alt="Retrato de Eduardo Augusto em ASCII art" />
+<div align="center">
 
-  Olá! Sou o **Eduardo**, desenvolvedor focado em criar **interfaces de alta performance** e **experiências de usuário impecáveis**.
+<img src="./ascii.svg" width="280" alt="Retrato de Eduardo Augusto em ASCII art" />
 
-  Minha especialidade é o ecossistema **React/Next.js** com forte foco em **Type Safety** e código limpo. Atualmente, estou desenvolvendo **Versum** - uma aplicação moderna de leitura bíblica com snap scroll, sincronização em nuvem e arquitetura escalável.
+<img src="./stats.svg" width="320" alt="Contribuições de Eduardo Augusto no GitHub no último ano" />
 
-  Conhecimento sólido em backends modernos (**Hono, Express, Fastify**) e sempre explorando novas tecnologias para resolver problemas reais.
+</div>
 
-  <br />
+Olá! Sou o **Eduardo**, desenvolvedor focado em criar **interfaces de alta performance** e **experiências de usuário impecáveis**.
 
-  **Disponível agora para freelance:** [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
+Minha especialidade é o ecossistema **React/Next.js** com forte foco em **Type Safety** e código limpo. Atualmente, estou desenvolvendo **Versum** - uma aplicação moderna de leitura bíblica com snap scroll, sincronização em nuvem e arquitetura escalável.
 
-  <br />
+Conhecimento sólido em backends modernos (**Hono, Express, Fastify**) e sempre explorando novas tecnologias para resolver problemas reais.
 
-  <img src="./stats.svg" width="320" alt="Contribuições de Eduardo Augusto no GitHub no último ano" />
-</p>
-
-<br clear="right" />
+**Disponível agora para freelance:** [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
 
 ## <img src="./hd-projetos.svg" width="620" alt="Projetos" />
 
