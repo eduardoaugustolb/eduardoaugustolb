@@ -1,12 +1,12 @@
 # Eduardo Augusto - Developer | Next.js, TypeScript & Backend
 
-<div align="center">
+<p align="center">
+  <img src="./ascii.svg" width="280" alt="Retrato de Eduardo Augusto em ASCII art" />
+</p>
 
-<img src="./ascii.svg" width="280" alt="Retrato de Eduardo Augusto em ASCII art" />
-
-<img src="./stats.svg" width="320" alt="Contribuições de Eduardo Augusto no GitHub no último ano" />
-
-</div>
+<p align="center">
+  <img src="./stats.svg" width="320" alt="Contribuições de Eduardo Augusto no GitHub no último ano" />
+</p>
 
 Olá! Sou o **Eduardo**, desenvolvedor focado em criar **interfaces de alta performance** e **experiências de usuário impecáveis**.
 
