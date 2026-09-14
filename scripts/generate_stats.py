@@ -13,6 +13,8 @@ Outputs, all sharing one visual language with ascii.svg (the portrait):
 Every file uses the portrait's grey ink, a monospace face, a transparent
 background, and the same left-to-right clipPath reveal with a cursor riding
 the edge. Motion is SMIL because GitHub strips <script> from READMEs.
+Text motion (shuffle loop, decrypt entry) and the shine sweep come from
+scripts/svg_fx.py — precomputed frames plus SMIL, no JavaScript.
 
 Env:
   GITHUB_TOKEN  required
@@ -26,6 +28,9 @@ import os
 import sys
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from svg_fx import animated_text, shine_grad, shine_style  # noqa: E402
 
 API = "https://api.github.com/graphql"
 
@@ -90,11 +95,12 @@ def font_text():
 
 WIDTH = 620            # every graphic shares one column width
 LEFT = 34              # shared left inset, so stacked blocks line up
-                       # (year.svg needs it for the weekday gutter)
+                        # (year.svg needs it for the weekday gutter)
 REVEAL = 1.30          # seconds; matches the portrait's cadence
-RAMP = [" ", ":", "+", "#", "@"]      # steps of the portrait's own ramp
+LEVELS = (0, 2, 5, 9)  # contribution caps for the year's 5 intensities
+CELL_OP = (0.10, 0.30, 0.50, 0.74, 1.0)  # level -> fill-opacity of data ink
 MON = ["jan", "feb", "mar", "apr", "may", "jun",
-       "jul", "aug", "sep", "oct", "nov", "dec"]
+        "jul", "aug", "sep", "oct", "nov", "dec"]
 
 
 # ---------------------------------------------------------------- data
@@ -200,7 +206,8 @@ def style(extra=""):
                 f".e-f{{fill:{t['emph']}}}.m-f{{fill:{t['dim']}}}"
                 f".u-s{{stroke:{t['rule']}}}.r{{stroke:{t['surface']}}}")
     return (f"<style>{font_text()}"
-            f"{block(LIGHT)}.w{{fill:{LIGHT['data']};opacity:.13}}{extra}"
+            f"{block(LIGHT)}.w{{fill:{LIGHT['data']};opacity:.13}}"
+            f"{shine_style()}{extra}"
             f"@media(prefers-color-scheme:dark){{{block(DARK)}"
             f".w{{fill:{DARK['data']};opacity:.16}}}}</style>")
 
@@ -253,8 +260,12 @@ def draw_stats(s):
     weekly = s["weekly"] or [0]
     peak = max(weekly) or 1
     p = [head(WIDTH, H)]
-    p.append(f'<g opacity="0">{fade(0.10)}'
-             + label(0, 50, s["total"], 52, "e-f", extra=' font-weight="600"')
+    p.append(f"<defs>{shine_grad('sh')}</defs>")
+    # hero number: decrypt entry once, then the shine sweep loops over it
+    p.append(animated_text(0, 50, s["total"], 52, fill="url(#sh)",
+                           weight="600", mode="entry", begin=0.10,
+                           slot=0.09, frames=8, seed="hero")
+             + f'<g opacity="0">{fade(0.55)}'
              + label(0, 72, "contributions in the last year", 12) + '</g>')
     for i, (val, lab) in enumerate([(s["active"], "active days"),
                                     (s["best_week"], "best week")]):
@@ -297,13 +308,17 @@ def draw_streak(s):
         cells.append((r["length"], lab, span))
 
     p = [head(WIDTH, H)]
+    p.append(f"<defs>{shine_grad('sh')}</defs>")
     mid = WIDTH / 2
     p.append(f'<line x1="{mid:.0f}" y1="16" x2="{mid:.0f}" y2="80" '
              f'class="u-s" stroke-width="1" opacity="0">{fade(0.20)}</line>')
     for i, (val, lab, span) in enumerate(cells):
         x = LEFT if i == 0 else mid + LEFT
-        p.append(f'<g opacity="0">{fade(0.12 + i * 0.14)}'
-                 + label(x, 44, f"{val}", 34, "e-f", extra=' font-weight="600"')
+        p.append(animated_text(x, 44, val, 34, fill="url(#sh)",
+                               weight="600", mode="entry",
+                               begin=0.12 + i * 0.14, slot=0.08, frames=6,
+                               seed=f"streak{i}")
+                 + f'<g opacity="0">{fade(0.55 + i * 0.14)}'
                  + label(x, 64, lab, 11)
                  + label(x, 80, span, 10) + '</g>')
     p.append("</svg>")
@@ -321,9 +336,10 @@ def draw_langs(s):
     groups = [(LEFT, "by bytes", s["by_size"], True),
               (LEFT + colw + 30, "by repos", s["by_repo"], False)]
     for gi, (gx, title, data, as_pct) in enumerate(groups):
-        p.append(f'<g opacity="0">{fade(0.10 + gi * 0.10)}'
-                 + label(gx, 12, title.upper(), 9, "m-f",
-                         extra=' letter-spacing="1.3"') + '</g>')
+        p.append(animated_text(gx, 12, title.upper(), 9, cls="m-f",
+                               spacing="1.3", mode="loop",
+                               begin=0.10 + gi * 0.10, hold=4.20, frames=5,
+                               seed=f"langs{gi}"))
         if not data:
             continue
         top = max(v for _, v in data) or 1
@@ -361,75 +377,88 @@ def draw_heading(word):
     H = 26
     text_end = len(word) * FS * 0.6 + 18
     p = [head(WIDTH, H)]
-    p.append(label(0, 18, word, FS, "e-f", extra=' font-weight="600"'))
-    p.append(f'<line x1="{text_end:.0f}" y1="12.5" x2="{WIDTH}" y2="12.5" '
-             f'class="u-s" stroke-width="1"/>')
+    p.append(f"<defs>{shine_grad('sh', dur=4.20)}</defs>")
+    # heading: shuffle loop over a shine fill, rule wipes in once
+    p.append(animated_text(0, 18, word, FS, fill="url(#sh)", weight="600",
+                           mode="loop", begin=0.15, hold=3.80, frames=6,
+                           seed=f"hd:{word}"))
+    clip, cursor = wipe("rh", text_end, 6, WIDTH - text_end, 13, 0.30, 0.80)
+    p.append(clip)
+    p.append(f'<g clip-path="url(#rh)"><line x1="{text_end:.0f}" y1="12.5" '
+             f'x2="{WIDTH}" y2="12.5" class="u-s" stroke-width="1"/></g>')
+    p.append(cursor)
     p.append("</svg>")
     return "".join(p)
 
 
-def draw_year(s):
-    """Seven rows by fifty-three weeks, intensity as a character."""
-    FS, LH, COLW = 9.2, 11.0, 2
-    CW = FS * 0.6
-    pad_l, pad_t = LEFT, 44
-    weeks = s["weeks"]
-    ncols = len(weeks) * COLW
-    H = int(pad_t + 7 * LH + 26)
+def level(v):
+    """Contribution count -> intensity level 0..4."""
+    for i, cut in enumerate(LEVELS):
+        if v <= cut:
+            return i
+    return 4
 
-    def level(v):
-        for i, cut in enumerate((0, 2, 5, 9)):
-            if v <= cut:
-                return i
-        return 4
+
+def draw_year(s):
+    """The year's contributions as a GitHub-style grid, monochrome.
+
+    Fifty-three week columns by seven weekday rows of rounded squares; the
+    five intensities are opacities of the data ink, so they adapt to the
+    light/dark scheme instead of carrying the encoding in a fixed shade.
+    """
+    pad_l, pad_t = LEFT, 46
+    weeks = s["weeks"]
+    n = max(len(weeks), 1)
+    pitch = (WIDTH - pad_l - 10) / n
+    cell = round(pitch * 0.74, 1)
+    rx = round(cell * 0.28, 1)
+    grid_w = (n - 1) * pitch + cell
+    grid_h = 6 * pitch + cell
+    H = int(pad_t + grid_h + 24)
+    FS = 9
 
     p = [head(WIDTH, H)]
-    p.append(f'<g opacity="0">{fade(0.10)}'
-             + label(pad_l, 16, "THE YEAR", 9, "m-f",
-                     extra=' letter-spacing="1.3"')
+    p.append(animated_text(pad_l, 16, "THE YEAR", 9, cls="m-f",
+                           spacing="1.3", mode="loop", begin=0.10,
+                           hold=4.60, frames=5, seed="year"))
+    p.append(f'<g opacity="0">{fade(0.30)}'
              + label(pad_l, 32, f"{s['active']} of "
                      f"{sum(len(w) for w in weeks)} days had a contribution", 11)
              + '</g>')
 
-    # ramp legend, so the encoding is never carried by shade alone
+    # legend: five swatches, so the encoding is never carried by shade alone
     lx = WIDTH - 6
-    p.append(f'<g opacity="0">{fade(1.30)}'
-             + label(lx - 78, 32, "less", 9, "m-f", "end")
-             + f'<text xml:space="preserve" x="{lx - 72}" y="32" class="d-f" '
-             f'font-size="{FS}">{" ".join(RAMP[1:])}</text>'
-             + label(lx, 32, "more", 9, "m-f", "end") + '</g>')
+    p.append(f'<g opacity="0">{fade(1.40)}'
+             + label(lx - 5 * (cell + 4) - 44, 32, "less", 9, "m-f", "end"))
+    for i, op in enumerate(CELL_OP):
+        x = lx - 5 * (cell + 4) - 38 + i * (cell + 4)
+        p[-1] += (f'<rect x="{x:.1f}" y="23" width="{cell}" height="{cell}" '
+                  f'rx="{rx}" class="d-f" fill-opacity="{op:.2f}"/>')
+    p[-1] += label(lx, 32, "more", 9, "m-f", "end") + '</g>'
 
-    for r in range(7):
-        chars = []
-        for w in weeks:
+    clip, cursor = wipe("ry", pad_l, pad_t - 4, grid_w, grid_h + 8, 0.45, 1.10)
+    p.append(clip)
+    p.append('<g clip-path="url(#ry)">')
+    for i, w in enumerate(weeks):
+        for r in range(7):
             day = next((d for d in w if d.get("weekday") == r), None)
             v = day["contributionCount"] if day else 0
-            chars.append(RAMP[level(v)] * COLW)
-        line = "".join(chars).rstrip()
-        if not line:
-            continue
-        y = pad_t + r * LH
-        w_px = max(len(line), 1) * CW
-        cid = f"ry{r}"
-        delay = 0.30 + r * 0.07
-        p.append(f'<clipPath id="{cid}"><rect x="{pad_l}" y="{y}" '
-                 f'height="{LH}" width="0"><animate attributeName="width" '
-                 f'from="0" to="{w_px:.1f}" begin="{delay:.2f}s" dur="0.40s" '
-                 f'fill="freeze"/></rect></clipPath>')
-        safe = line.replace("&", "&amp;").replace("<", "&lt;")
-        p.append(f'<g clip-path="url(#{cid})"><text xml:space="preserve" '
-                 f'x="{pad_l}" y="{y + FS - 0.6:.1f}" class="d-f" '
-                 f'font-size="{FS}">{safe}</text></g>')
+            p.append(f'<rect x="{pad_l + i * pitch:.1f}" '
+                     f'y="{pad_t + r * pitch:.1f}" width="{cell}" '
+                     f'height="{cell}" rx="{rx}" class="d-f" '
+                     f'fill-opacity="{CELL_OP[level(v)]:.2f}"/>')
+    p.append("</g>")
+    p.append(cursor)
 
     for r, lab in ((1, "mon"), (3, "wed"), (5, "fri")):
-        p.append(label(pad_l - 7, pad_t + r * LH + FS - 0.6, lab, 9, "m-f",
-                       "end"))
+        p.append(label(pad_l - 7, pad_t + r * pitch + cell - 1, lab, 9,
+                       "m-f", "end"))
 
     last_m, last_x = None, -999.0
-    base_y = pad_t + 7 * LH + 13
+    base_y = pad_t + grid_h + 15
     for i, w in enumerate(weeks):
         m = int(w[0]["date"][5:7])
-        x = pad_l + i * COLW * CW
+        x = pad_l + i * pitch
         if m != last_m and i < len(weeks) - 1 and x - last_x >= 34:
             p.append(label(x, base_y, MON[m - 1], 9, "m-f"))
             last_x = x

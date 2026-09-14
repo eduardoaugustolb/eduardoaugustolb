@@ -32,16 +32,18 @@ jobs:
         with:
           python-version: "3.12"
 
-      # O rembg baixa um modelo de ~176MB na primeira execucao; cachear evita
+      - uses: astral-sh/setup-uv@v5
+
+      # O rembg (modelo u2net, ~176MB) baixa na primeira execucao; cachear evita
       # repetir esse download em toda run diaria.
       - name: Cache rembg model
         uses: actions/cache@v4
         with:
-          path: ~/.u2net
+          path: ~/.local/share/rembg
           key: u2net-model-v1
 
       - name: Install dependencies
-        run: pip install --quiet pillow numpy opencv-python-headless rembg onnxruntime
+        run: uv pip install --system --quiet pillow numpy opencv-python-headless rembg onnxruntime
 
       - name: Download current avatar
         env:
