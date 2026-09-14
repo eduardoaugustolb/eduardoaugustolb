@@ -12,7 +12,8 @@ on:
       crop:
         description: "left,top,right,bottom (pixels no avatar original)"
         required: false
-        default: "60,10,420,360"
+        # Include the full chin; the avatar's jaw reaches roughly y=405.
+        default: "60,10,420,420"
 
 permissions:
   contents: write
@@ -54,7 +55,7 @@ jobs:
 
       - name: Generate ASCII portrait
         env:
-          CROP: ${{ github.event.inputs.crop || '60,10,420,360' }}
+          CROP: ${{ github.event.inputs.crop || '60,10,420,420' }}
         run: |
           python3 scripts/make_portrait.py /tmp/avatar.png ascii.svg --crop "$CROP"
           python3 scripts/embed_portrait_font.py
