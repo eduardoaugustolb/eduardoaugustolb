@@ -336,10 +336,7 @@ def draw_langs(s):
     groups = [(LEFT, "by bytes", s["by_size"], True),
               (LEFT + colw + 30, "by repos", s["by_repo"], False)]
     for gi, (gx, title, data, as_pct) in enumerate(groups):
-        p.append(animated_text(gx, 12, title.upper(), 9, cls="m-f",
-                               spacing="1.3", mode="loop",
-                               begin=0.10 + gi * 0.10, hold=4.20, frames=5,
-                               seed=f"langs{gi}"))
+        p.append(label(gx, 12, title.upper(), 9, "m-f", extra=' letter-spacing="1.3"'))
         if not data:
             continue
         top = max(v for _, v in data) or 1
@@ -418,9 +415,7 @@ def draw_year(s):
     FS = 9
 
     p = [head(WIDTH, H)]
-    p.append(animated_text(pad_l, 16, "THE YEAR", 9, cls="m-f",
-                           spacing="1.3", mode="loop", begin=0.10,
-                           hold=4.60, frames=5, seed="year"))
+    p.append(label(pad_l, 16, "THE YEAR", 9, "m-f", extra=' letter-spacing="1.3"'))
     p.append(f'<g opacity="0">{fade(0.30)}'
              + label(pad_l, 32, f"{s['active']} of "
                      f"{sum(len(w) for w in weeks)} days had a contribution", 11)

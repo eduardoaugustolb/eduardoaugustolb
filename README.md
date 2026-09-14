@@ -89,12 +89,6 @@ Automação de ponta a ponta para um perfil de afiliados de streetwear e perfume
 
 </div>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/eduardoaugustolb/output/github-snake-custom-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/eduardoaugustolb/output/github-snake.svg" />
-  <img alt="GitHub Snake - Visualização de contribuições" src="https://raw.githubusercontent.com/eduardoaugustolb/eduardoaugustolb/output/github-snake.svg" />
-</picture>
-
 ## <img src="./hd-contato.svg" width="620" alt="Vamos nos Conectar" />
 
 **Disponível para projetos freelance em:**
