@@ -1,103 +1,107 @@
+<p align="center">
+  <strong>English</strong> &nbsp;·&nbsp; <a href="./README.pt-BR.md">Português (BR)</a> &nbsp;·&nbsp; <a href="./README.es.md">Español</a>
+</p>
+
 # Eduardo Augusto - Developer | Next.js, TypeScript & Backend
 
 <p align="center">
-  <img src="./ascii.svg" width="280" alt="Retrato de Eduardo Augusto em ASCII art" />
+  <img src="./ascii.svg" width="280" alt="ASCII art portrait of Eduardo Augusto" />
 </p>
 
 <p align="center">
-  <img src="./stats.svg" width="320" alt="Contribuições de Eduardo Augusto no GitHub no último ano" />
+  <img src="./stats.svg" width="320" alt="Eduardo Augusto's GitHub contributions over the past year" />
 </p>
 
-Olá! Sou o **Eduardo**, desenvolvedor focado em criar **interfaces de alta performance** e **experiências de usuário impecáveis**.
+Hi! I'm **Eduardo**, a developer focused on building **high-performance interfaces** and **flawless user experiences**.
 
-Minha especialidade é o ecossistema **React/Next.js** com forte foco em **Type Safety** e código limpo. Atualmente, estou desenvolvendo o **Versum**, um leitor bíblico multiplataforma sem feed, sem curtidas e sem ranking, focado em ler no seu próprio ritmo.
+My specialty is the **React/Next.js** ecosystem with a strong focus on **type safety** and clean code. I'm currently building **Versum**, a multi-platform Bible reader with no feed, no likes, and no rankings — focused on reading at your own pace.
 
-Conhecimento sólido em backends modernos (**Hono, Express, Fastify**) e sempre explorando novas tecnologias para resolver problemas reais.
+Solid experience with modern backends (**Hono, Express, Fastify**), always exploring new technologies to solve real problems.
 
-**Disponível agora para freelance:** [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
+**Available for freelance now:** [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
 
-## <img src="./hd-projetos.svg" width="620" alt="Projetos" />
+## <img src="./hd-projects.svg" width="620" alt="Projects" />
 
-### **Versum** - Leitor Bíblico Multiplataforma
+### **Versum** - Multi-Platform Bible Reader
 
-Uma forma de ler a Bíblia inteira no seu próprio ritmo, sem feed, sem curtidas e sem ranking. Autenticação por magic link, progresso sincronizado entre dispositivos, leitura offline no Android e compartilhamento de capítulos e versículos.
+A way to read the whole Bible at your own pace — no feed, no likes, no rankings. Magic-link auth, progress synced across devices, offline reading on Android, and chapter/verse sharing.
 
-**Tecnologias:**
+**Tech:**
 - **Backend:** Go, PostgreSQL, Redis
-- **Web:** Next.js (planejado)
-- **Mobile:** React Native / Expo (planejado)
-- **Status:** Pré-alpha. Arquitetura e produto definidos, implementação começando pelo corpus bíblico
+- **Web:** Next.js (planned)
+- **Mobile:** React Native / Expo (planned)
+- **Status:** Pre-alpha. Architecture and product defined, implementation starting with the biblical corpus
 
 **GitHub:** [Versum Repository](https://github.com/eduardoaugustolb/versum)
 
-### **Affiliate Hub** - Drops do Frost
+### **Affiliate Hub** - Frost Drops
 
-Automação de ponta a ponta para um perfil de afiliados de streetwear e perfumes: sincroniza produtos e links (Shopee, Shein, Mercado Livre), gera imagens de post automaticamente e distribui novos produtos em um grupo de WhatsApp.
+End-to-end automation for a streetwear and fragrance affiliate profile: syncs products and links (Shopee, Shein, Mercado Livre), auto-generates post images, and distributes new products to a WhatsApp group.
 
-**Tecnologias:**
-- **Linguagem:** TypeScript
+**Tech:**
+- **Language:** TypeScript
 - **Runtime:** Bun
-- **Arquitetura:** Clean Architecture + Hexagonal (Ports & Adapters)
-- **Status:** Em desenvolvimento. Módulos de autenticação e catálogo de produtos já implementados
+- **Architecture:** Clean Architecture + Hexagonal (Ports & Adapters)
+- **Status:** In progress. Auth and product catalog modules already implemented
 
 **GitHub:** [Affiliate Hub Repository](https://github.com/eduardoaugustolb/affiliate-hub)
 
-## <img src="./hd-stack.svg" width="620" alt="Tech Stack - O Que Eu Domino" />
+## <img src="./hd-stack.svg" width="620" alt="Tech Stack - What I Work With" />
 
-### **Frontend (Especialidade Principal)**
+### **Frontend (Main Specialty)**
 - **Frameworks:** Next.js 16, React 19
-- **Linguagem:** TypeScript (Type-safe)
+- **Language:** TypeScript (type-safe)
 - **Styling:** Tailwind CSS, CSS3, HTML5, JavaScript
-- **Foco:** Performance, UX/UI, Responsividade
+- **Focus:** Performance, UX/UI, Responsiveness
 
-### **Backend (Desenvolvimento Ativo)**
+### **Backend (Actively Developing)**
 - **Runtimes:** Node.js, Bun
 - **Frameworks:** Hono.js, Express, Fastify
 - **Databases:** PostgreSQL, Redis
 - **ORM:** Drizzle ORM
-- **Estou aprendendo:** Go (iniciante)
+- **Currently learning:** Go (beginner)
 
-### **Ferramentas & Workflow**
+### **Tools & Workflow**
 - **Editors:** Zed, VS Code
-- **Versionamento:** Git, GitHub
+- **Version Control:** Git, GitHub
 - **Package Managers:** Bun, npm
-- **Ambiente:** Linux (CachyOS)
+- **Environment:** Linux (CachyOS)
 
-## <img src="./hd-diferenciais.svg" width="620" alt="Por Que Trabalhar Comigo" />
+## <img src="./hd-highlights.svg" width="620" alt="Why Work With Me" />
 
-**Performance em Primeiro Lugar** - Otimizo Core Web Vitals e experiência do usuário
+**Performance First** - I optimize Core Web Vitals and user experience
 
-**Type Safety Total** - Código TypeScript tipo-seguro, menos bugs
+**Full Type Safety** - Type-safe TypeScript code, fewer bugs
 
-**Stack Moderno** - Next.js 16, Hono, Bun, React 19
+**Modern Stack** - Next.js 16, Hono, Bun, React 19
 
-**Frontend + Backend** - Capaz de trabalhar full-stack quando necessário
+**Frontend + Backend** - Able to work full-stack when needed
 
-**Foco em Qualidade** - Código limpo, manutenível e escalável
+**Quality Focus** - Clean, maintainable, scalable code
 
-**Comunicação Clara** - Atualizações regulares e disponibilidade
+**Clear Communication** - Regular updates and availability
 
-## <img src="./hd-stats.svg" width="620" alt="GitHub Stats e Atividade" />
+## <img src="./hd-stats.svg" width="620" alt="GitHub Stats and Activity" />
 
 <div align="center">
 
-<img src="./streak.svg" width="620" alt="Streak atual e mais longo de contribuições de Eduardo Augusto" />
+<img src="./streak.svg" width="620" alt="Eduardo Augusto's current and longest contribution streaks" />
 
-<img src="./langs.svg" width="620" alt="Principais linguagens de Eduardo Augusto, por bytes e por repositório" />
+<img src="./langs.svg" width="620" alt="Eduardo Augusto's top languages, by bytes and by repository" />
 
-<img src="./year.svg" width="620" alt="O último ano de contribuições de Eduardo Augusto, um caractere por dia" />
+<img src="./year.svg" width="620" alt="Eduardo Augusto's past year of contributions, one character per day" />
 
 </div>
 
-## <img src="./hd-contato.svg" width="620" alt="Vamos nos Conectar" />
+## <img src="./hd-contact.svg" width="620" alt="Let's Connect" />
 
-**Disponível para projetos freelance em:**
-- Desenvolvimento Next.js
-- APIs com Hono, Express, Fastify
-- Otimização de performance web
-- Consultoria frontend
+**Available for freelance projects in:**
+- Next.js development
+- APIs with Hono, Express, Fastify
+- Web performance optimization
+- Frontend consulting
 
-> **Tem um projeto em mente? Me manda os detalhes.**
+> **Have a project in mind? Send me the details.**
 > [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
 
 [discord](https://discord.com/users/909580127644549201) &nbsp;·&nbsp;
@@ -108,7 +112,7 @@ Automação de ponta a ponta para um perfil de afiliados de streetwear e perfume
 
 <div align="center">
 
-**Desenvolvedor de Verdade. Código de Verdade.**
+**Real Developer. Real Code.**
 
 [**contato@eduardoaugusto.work**](mailto:contato@eduardoaugusto.work)
 

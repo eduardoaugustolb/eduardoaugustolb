@@ -1,10 +1,10 @@
 name: refresh stats
 
-# Sem trigger de push: este job commita stats.svg etc., e um trigger de push
-# faria a Action rodar de novo em cima do próprio commit.
+# No push trigger: this job commits stats.svg etc., and a push trigger
+# would make the Action run again on top of its own commit.
 on:
-  # A cada 15 minutos (minimo permitido pelo GitHub e 5min, 15min evita atrasos
-  # em horarios de pico e mantem a consulta GraphQL bem longe do rate limit)
+  # Every 15 minutes (GitHub's minimum is 5min; 15min avoids delays
+  # at peak times and keeps the GraphQL query well clear of the rate limit)
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
@@ -31,7 +31,7 @@ jobs:
 
       - name: Commit whatever changed
         run: |
-          FILES="stats.svg streak.svg langs.svg year.svg hd-projetos.svg hd-stack.svg hd-diferenciais.svg hd-stats.svg hd-contato.svg"
+          FILES="stats.svg streak.svg langs.svg year.svg hd-projects.svg hd-stack.svg hd-highlights.svg hd-stats.svg hd-contact.svg"
           if [ -z "$(git status --porcelain -- $FILES)" ]; then
             echo "no change"
             exit 0

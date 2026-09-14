@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """Turn a photo into ascii.svg — a self-typing, dual-theme dot-matrix portrait.
 
-Gera duas camadas no mesmo SVG: light desenha a sombra (fundo claro) e dark
-desenha a luz (fundo escuro, estilo giz no quadro-negro) — so uma aparece por
-vez, via display + prefers-color-scheme. E por isso que o dark nao parece um
-filtro invertido: e um mapeamento proprio, harmonico em cada fundo.
+Renders two layers in the same SVG: light draws the shadow (on a light
+background) and dark draws the light (on a dark background, chalk-on-blackboard
+style) — only one shows at a time, via display + prefers-color-scheme. That's
+why the dark layer doesn't look like an inverted filter: it's its own mapping,
+harmonious on each background.
 
-Estilo "jitter": pontilhado como o wallpaper de referencia — rampa curta de
-pontos (" ", "·", "•", "●") + dithering Floyd-Steinberg + deslocamento
-horizontal pseudo-aleatorio por linha. Com so 4 niveis, o detalhe (oculos,
-dentes, contornos) vem da difusao de erro e da resolucao maior (COLS 120),
-nao da rampa.
+"Jitter" style: stippled like the reference wallpaper — a short dot ramp
+(" ", "·", "•", "●") + Floyd-Steinberg dithering + pseudo-random horizontal
+offset per row. With only 4 levels, detail (glasses, teeth, contours) comes
+from error diffusion and the higher resolution (COLS 120), not from the ramp.
 
     uv pip install --system pillow numpy opencv-python-headless rembg onnxruntime
     python3 scripts/make_portrait.py photo.png --crop 60,10,420,360
@@ -46,8 +46,8 @@ import numpy as np
 from PIL import Image
 from rembg import new_session, remove
 
-# u2net (~176 MB, cacheado em ~/.u2net no CI) em vez do padrao bria-rmbg-2.0
-# (~1 GB): mais rapido e suficiente para separar busto do fundo.
+# u2net (~176 MB, cached at ~/.u2net in CI) instead of the default bria-rmbg-2.0
+# (~1 GB): faster and good enough to separate the bust from the background.
 _BG_SESSION = None
 
 
@@ -58,23 +58,23 @@ def _bg_session():
     return _BG_SESSION
 
 RAMP = " \u00b7\u2022\u25cf"  # jitter/dot halftone: blank, middle dot, bullet, black circle
-# bright/sparse -> dark/dense. Poucos niveis de proposito (igual ao wallpaper
-# pontilhado): o detalhe vem do dithering por difusao de erro + resolucao maior,
-# nao de uma rampa longa. Manter so pontos quebra o "banding" vertical e imita
-# o pontilhado com jitter da referencia.
-COLS = 120                 # mais colunas = mais detalhe com rampa curta
-CLAHE_CLIP = 2.0           # menor que antes: com so 4 niveis, textura vira ruido
+# bright/sparse -> dark/dense. Few levels on purpose (like the stippled
+# wallpaper): detail comes from error-diffusion dithering + higher resolution,
+# not from a long ramp. Dots only breaks vertical "banding" and mimics the
+# reference's jittered stipple.
+COLS = 120                 # more columns = more detail with a short ramp
+CLAHE_CLIP = 2.0           # lower than before: with only 4 levels, texture turns into noise
 GAMMA = 1.0                # ramp mapping exponent
-CURVE = 1.35               # camada light: escurece p/ segurar meios-tons
-DARK_CURVE = 1.0           # camada dark: sem reforco, o brilho ja modela sozinho
+CURVE = 1.35               # light layer: darkens to hold the midtones
+DARK_CURVE = 1.0           # dark layer: no boost, brightness already shapes it on its own
 CROP_BOTTOM = 0.0          # fraction to trim off the bottom (torso, chair)
 ROW_RATIO = 0.50           # monospace cells are about twice as tall as wide
-DITHER = True              # Floyd-Steinberg: preserva oculos, dentes, contornos
-JITTER = 0.45              # deslocamento horizontal por linha (fração de CHAR_W)
-JITTER_SEED = 7            # fixo p/ o retrato ser deterministico entre runs
-VIGNETTE = True            # fade vertical suave: as faixas do topo (cabelo)
-VIG_TOP = 0.10             # e da base (queixo) afunilam em vez de cortarem
-VIG_BOT = 0.06             # reto — laterais e tamanho do rosto intactos
+DITHER = True              # Floyd-Steinberg: preserves glasses, teeth, contours
+JITTER = 0.45              # horizontal offset per row (fraction of CHAR_W)
+JITTER_SEED = 7            # fixed so the portrait is deterministic across runs
+VIGNETTE = True            # gentle vertical fade: the top (hair)
+VIG_TOP = 0.10             # and bottom (chin) bands taper instead of cutting
+VIG_BOT = 0.06             # straight off — sides and face size untouched
 
 FG_LIGHT = "#6e7681"       # readable on GitHub light — the portrait's grey
 FG_DARK = "#c9d1d9"        # and its dark-mode step
@@ -86,24 +86,26 @@ FAMILY = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
 
 
 def prep(path, crop=None, no_bg=False, invert=False, curve=None):
-    """Cut out the background, even the local contrast, then darken.
+    """Cut out the background, even out the local contrast, then darken.
 
-    O rembg as vezes morde a cabeca (cabelo escuro sobre fundo escuro vira
-    "fundo"). Para nunca cortar o sujeito:
+    rembg sometimes bites into the head (dark hair on a dark background reads
+    as "background"). To never cut into the subject:
 
-      * closing largo preenche as baias/recortes do cabelo;
-      * notch-fill local: so as colunas afundadas em relacao a vizinhanca
-        proxima (±10% da largura) voltam a ser sujeito, ate 12% da altura
-        e apenas na regiao central da cabeca — sem puxar fundo escuro vira
-        barra solida no topo;
-      * dilatacao curta + feather minimo, sem halo cinza no fundo;
-      * se a mascara vem quase vazia (<15%), descarta e usa a foto inteira;
-      * --no-bg pula a remocao e usa a foto inteira (recomendado se o fundo
-        for claro ou se o cabelo continuar sendo mordido).
+      * a wide closing fills the hair bays/notches;
+      * local notch-fill: only columns sunk relative to their close
+        neighborhood (±10% of the width) become subject again, up to 12% of
+        the height and only in the central head region — without pulling in
+        dark background that would turn into a solid bar at the top;
+      * short dilation + minimal feather, no gray halo on the background;
+      * if the mask comes back nearly empty (<15%), discard it and use the
+        whole photo;
+      * --no-bg skips removal and uses the whole photo (recommended if the
+        background is light or the hair keeps getting bitten).
 
-    invert=True gera a camada dark: o sujeito e composto sobre preto e a
-    escala e invertida, entao os pontos desenham a LUZ (giz no quadro-negro)
-    em vez da sombra — harmonico no fundo escuro em vez de um bloco branco.
+    invert=True renders the dark layer: the subject is composited over black
+    and the scale is inverted, so the dots draw the LIGHT (chalk on blackboard)
+    instead of the shadow — harmonious on the dark background instead of a
+    white block.
     """
     src = Image.open(path).convert("RGBA")
     if crop:
@@ -123,24 +125,24 @@ def prep(path, crop=None, no_bg=False, invert=False, curve=None):
             coverage = float((alpha > 20).mean())
 
         if alpha is None or coverage < 0.15:
-            # Mascara quase vazia (= comeu a cabeca): nao arrisca, usa tudo.
-            # Cobertura alta (>97%) e normal em crop apertado — so significa
-            # que o sujeito preenche o quadro; a mascara continua valida.
+            # Nearly empty mask (= ate the head): don't risk it, use everything.
+            # High coverage (>97%) is normal on a tight crop — it just means
+            # the subject fills the frame; the mask is still valid.
             gray = np.array(src.convert("L"))
         else:
-            # A mascara costuma morder o cabelo (escuro sobre fundo escuro):
-            # fecha baias/recortes com closing largo, ...
+            # The mask usually bites into the hair (dark on dark background):
+            # close bays/notches with a wide closing, ...
             w = max(src.size)
             kc = max(9, int(w * 0.07) | 1)
             binm = (alpha > 20).astype("uint8") * 255
             closed = cv2.morphologyEx(
                 binm, cv2.MORPH_CLOSE,
                 cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (kc, kc)))
-            # ...notch-fill local: o topo de referencia de cada coluna e a
-            # mediana dos topos na vizinhanca (±10% da largura). So preenche
-            # se a coluna esta afundada >3px e <=12% da altura, e apenas nos
-            # 60% centrais (cabeca) — fundo escuro das bordas nunca vira
-            # sujeito, entao nao forma barra solida.
+            # ...local notch-fill: each column's reference top is the median
+            # of tops in its neighborhood (±10% of the width). Only fills when
+            # the column is sunk >3px and <=12% of the height, and only in the
+            # central 60% (head) — dark background at the edges never becomes
+            # subject, so no solid bar forms.
             fg_px = closed > 127
             h, ww = fg_px.shape
             has = fg_px.any(axis=0)
@@ -164,15 +166,15 @@ def prep(path, crop=None, no_bg=False, invert=False, curve=None):
                         & (rows >= local[None, :].astype(int))
                         & (rows < tops[None, :]))
                 closed[fill] = 255
-            # ...recupera fios da borda com dilatacao curta, ...
+            # ...recover edge strands with a short dilation, ...
             kd = max(5, int(w * 0.02) | 1)
             dil = cv2.dilate(closed, np.ones((kd, kd), np.uint8))
-            # ...e featheriza so o minimo para nao deixar halo cinza no fundo.
+            # ...and feather just enough to avoid a gray halo on the background.
             soft = cv2.GaussianBlur(dil.astype("float32"), (0, 0), sigmaX=2.0)
             soft = (soft / 255.0)[..., None].astype("float32")
             fg = np.array(src.convert("RGB"), dtype="float32")
-            # camada light compoe sobre branco (sombra -> ponto);
-            # camada dark compoe sobre preto (luz -> ponto).
+            # light layer composites over white (shadow -> dot);
+            # dark layer composites over black (light -> dot).
             paper = 0.0 if invert else 255.0
             comp = fg * soft + paper * (1.0 - soft)
             gray = comp[..., 0] * 0.299 + comp[..., 1] * 0.587 + comp[..., 2] * 0.114
@@ -180,44 +182,44 @@ def prep(path, crop=None, no_bg=False, invert=False, curve=None):
 
     if curve is None:
         curve = DARK_CURVE if invert else CURVE
-    gray = cv2.bilateralFilter(gray, 7, 35, 35)       # leve: segura oculos/dentes
+    gray = cv2.bilateralFilter(gray, 7, 35, 35)       # light touch: holds glasses/teeth
     gray = cv2.createCLAHE(clipLimit=CLAHE_CLIP,
                            tileGridSize=(8, 8)).apply(gray)
     gray = (255.0 * (gray / 255.0) ** curve).astype("uint8")
     if invert:
-        gray = 255 - gray  # brilho vira densidade: fundo/hair -> blank
-        # Fora da mascara o invertido nunca e puro: textura do fundo + o
-        # feather viram pontinho via dithering (starfield). Zera tudo que
-        # esta majoritariamente fora do sujeito; a borda featherizada
-        # continua dando o contorno suave.
+        gray = 255 - gray  # brightness becomes density: background/hair -> blank
+        # Outside the mask the inverted image is never pure: background texture
+        # + feather turn into dots via dithering (starfield). Zero everything
+        # mostly outside the subject; the feathered edge still gives the soft
+        # contour.
         try:
             outside = soft[..., 0] < 0.35
             gray[outside] = 255
         except NameError:
-            gray[gray > 245] = 255  # sem mascara (--no-bg): so o quase-branco
+            gray[gray > 245] = 255  # no mask (--no-bg): only the near-white
     if VIGNETTE:
-        # Nesta altura blank == 255 nas duas camadas (light compoe sobre
-        # branco; dark ja inverteu e zerou o fundo). O fade empurra as
-        # faixas do topo e da base para o blank com smoothstep, entao o
-        # cabelo/queixo que encostam no crop afunilam em vez de cortarem
-        # reto. So vertical: laterais, orelhas e largura intactas.
+        # By now blank == 255 on both layers (light composites over white;
+        # dark already inverted and zeroed the background). The fade pushes
+        # the top and bottom bands toward blank with a smoothstep, so hair /
+        # chin touching the crop taper instead of cutting straight off.
+        # Vertical only: sides, ears and width untouched.
         h, w = gray.shape
         yy = np.arange(h, dtype="float32")[:, None] / h
         f_top = np.clip((VIG_TOP - yy) / VIG_TOP, 0, 1)
         f_bot = np.clip((yy - (1 - VIG_BOT)) / VIG_BOT, 0, 1)
         f = np.maximum(f_top, f_bot)
-        f = f * f * (3 - 2 * f)  # smoothstep: transição sem degrau
+        f = f * f * (3 - 2 * f)  # smoothstep: transition without a hard step
         f = np.broadcast_to(f, (h, w))
         gray = (gray * (1 - f) + 255.0 * f).astype("uint8")
     return Image.fromarray(gray)
 
 
 def to_lines(img, cols=COLS, gamma=GAMMA, dither=DITHER):
-    """Quantiza para a rampa de pontos com difusao de erro (jitter).
+    """Quantize to the dot ramp with error diffusion (jitter).
 
-    Com so 4 niveis, a quantizacao direta posteriza e apaga oculos/dentes.
-    O Floyd-Steinberg empurra o erro para os vizinhos, preservando textura e
-    contornos finos como pontilhado — o mesmo principio do wallpaper.
+    With only 4 levels, direct quantization posterizes and erases glasses /
+    teeth. Floyd-Steinberg pushes the error to the neighbors, preserving
+    texture and fine contours as stipple — the same principle as the wallpaper.
     """
     w, h = img.size
     if CROP_BOTTOM:
@@ -229,18 +231,18 @@ def to_lines(img, cols=COLS, gamma=GAMMA, dither=DITHER):
     buf = np.array(img, dtype="float32") / 255.0   # 1 = branco, 0 = preto
     n = len(RAMP)
 
-    # niveis de "escuridao" 0..1 igualmente espacados; gamma aplica na ida
+    # "darkness" levels 0..1 evenly spaced; gamma applies on the way in
     def quant(v):
         v = min(1.0, max(0.0, v))
         dark = (1.0 - v) ** gamma
         idx = min(n - 1, int(dark * n))
-        # valor representativo do nivel (centro do bucket) p/ calcular o erro
+        # representative level value (bucket center) for computing the error
         rep = 1.0 - (idx + 0.5) / n
         if idx == 0:
             rep = 1.0
         elif idx == n - 1:
             rep = 1.0 - (n - 0.5) / n
-        # desfaz o gamma aproximadamente
+        # approximately undo the gamma
         if gamma != 1.0:
             rep = 1.0 - (1.0 - rep) ** (1.0 / gamma) if rep < 1.0 else 1.0
         return idx, rep
@@ -277,11 +279,11 @@ def to_lines(img, cols=COLS, gamma=GAMMA, dither=DITHER):
 
 
 def build_svg(lines_light, lines_dark=None, cols=COLS):
-    """Monta o SVG com as duas camadas tematicas.
+    """Assemble the SVG with the two themed layers.
 
-    lines_light desenha a sombra (fundo claro); lines_dark desenha a luz
-    (fundo escuro). So uma camada e visivel por vez, via display + media
-    query — o mesmo arquivo serve os dois esquemas do GitHub.
+    lines_light draws the shadow (light background); lines_dark draws the
+    light (dark background). Only one layer is visible at a time, via display
+    + media query — the same file serves both GitHub schemes.
     """
     layers = [("l", "ll", lines_light)]
     if lines_dark is not None:
@@ -300,10 +302,10 @@ def build_svg(lines_light, lines_dark=None, cols=COLS):
 
     import random
     rng = random.Random(JITTER_SEED)
-    # jitter por linha: desloca cada linha de ±JITTER*CHAR_W para quebrar o
-    # alinhamento vertical — o pontilhado "tremido" do wallpaper. O pad extra
-    # acomoda o deslocamento para a direita sem clipar. Mesmo seed nas duas
-    # camadas, entao a geometria coincide.
+    # per-row jitter: shifts each row by ±JITTER*CHAR_W to break the vertical
+    # alignment — the wallpaper's "shaky" stipple. The extra pad absorbs the
+    # rightward shift without clipping. Same seed on both layers, so the
+    # geometry matches.
     nrows = max(len(lines) for _, _, lines in layers)
     shifts = [(rng.random() * 2 - 1) * JITTER * CHAR_W for _ in range(nrows)]
     pad_l = pad + JITTER * CHAR_W + 1
@@ -350,19 +352,19 @@ def main():
                                    "the face")
     ap.add_argument("--cols", type=int, default=COLS)
     ap.add_argument("--no-bg", action="store_true",
-                    help="pula o rembg e usa a foto inteira — use se o cabelo/"
-                         "cabeca continuar sendo cortado")
+                    help="skip rembg and use the whole photo — use if the "
+                         "hair/head keeps getting cut")
     ap.add_argument("--no-dither", action="store_true",
-                    help="desliga o Floyd-Steinberg (posteriza, menos detalhe)")
+                    help="turn off Floyd-Steinberg (posterizes, less detail)")
     ap.add_argument("--preview", action="store_true",
                     help="print the ASCII to the terminal as well")
     ap.add_argument("--out-txt", metavar="PATH",
                     help="also write the plain ASCII to this file, e.g. "
                          "~/.config/fastfetch/logo.txt")
     ap.add_argument("--out-txt-dark", metavar="PATH",
-                    help="plain ASCII da camada dark (luz -> ponto)")
+                    help="plain ASCII of the dark layer (light -> dot)")
     ap.add_argument("--no-dark", action="store_true",
-                    help="gera so a camada light (retrato single-theme)")
+                    help="render only the light layer (single-theme portrait)")
     args = ap.parse_args()
 
     crop = None

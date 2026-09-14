@@ -1,16 +1,16 @@
 name: refresh portrait
 
-# Regera ascii.svg a partir do avatar atual do GitHub. O crop abaixo foi
-# ajustado manualmente pra essa foto especifica (rosto centralizado, sem o
-# paleto/gola preta) -- se o avatar mudar de enquadramento, rode manualmente
-# com um valor de "crop" diferente (Actions > refresh portrait > Run workflow).
+# Regenerates ascii.svg from the current GitHub avatar. The crop below was
+# hand-tuned for this specific photo (centered face, no black blazer/collar) --
+# if the avatar framing changes, run manually with a different "crop" value
+# (Actions > refresh portrait > Run workflow).
 on:
   schedule:
     - cron: "26 6 * * *"
   workflow_dispatch:
     inputs:
       crop:
-        description: "left,top,right,bottom (pixels no avatar original)"
+        description: "left,top,right,bottom (pixels in the original avatar)"
         required: false
         # Include the full chin; the avatar's jaw reaches roughly y=405.
         default: "60,10,420,420"
@@ -35,8 +35,8 @@ jobs:
 
       - uses: astral-sh/setup-uv@v5
 
-      # O rembg (modelo u2net, ~176MB) baixa na primeira execucao; cachear evita
-      # repetir esse download em toda run diaria.
+      # rembg (u2net model, ~176MB) downloads on the first run; caching avoids
+      # repeating that download on every daily run.
       - name: Cache rembg model
         uses: actions/cache@v4
         with:
