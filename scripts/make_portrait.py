@@ -74,7 +74,7 @@ JITTER = 0.45              # deslocamento horizontal por linha (fração de CHAR
 JITTER_SEED = 7            # fixo p/ o retrato ser deterministico entre runs
 VIGNETTE = True            # fade vertical suave: as faixas do topo (cabelo)
 VIG_TOP = 0.10             # e da base (queixo) afunilam em vez de cortarem
-VIG_BOT = 0.12             # reto — laterais e tamanho do rosto intactos
+VIG_BOT = 0.06             # reto — laterais e tamanho do rosto intactos
 
 FG_LIGHT = "#6e7681"       # readable on GitHub light — the portrait's grey
 FG_DARK = "#c9d1d9"        # and its dark-mode step
