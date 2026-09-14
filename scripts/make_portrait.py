@@ -72,6 +72,11 @@ ROW_RATIO = 0.50           # monospace cells are about twice as tall as wide
 DITHER = True              # Floyd-Steinberg: preserva oculos, dentes, contornos
 JITTER = 0.45              # deslocamento horizontal por linha (fração de CHAR_W)
 JITTER_SEED = 7            # fixo p/ o retrato ser deterministico entre runs
+VIGNETTE = True            # fade eliptico: queixo/cabelo desvanecem em vez de
+VIG_C = (0.50, 0.42)       # terminarem em corte reto na borda do crop
+VIG_R = (0.46, 0.48)       # (centro e raios em fracao da imagem)
+VIG_START = 0.78           # onde o fade comeca (fracao do raio)
+VIG_FULL = 1.02            # onde vira totalmente blank
 
 FG_LIGHT = "#6e7681"       # readable on GitHub light — the portrait's grey
 FG_DARK = "#c9d1d9"        # and its dark-mode step
@@ -192,6 +197,18 @@ def prep(path, crop=None, no_bg=False, invert=False, curve=None):
             gray[outside] = 255
         except NameError:
             gray[gray > 245] = 255  # sem mascara (--no-bg): so o quase-branco
+    if VIGNETTE:
+        # Nesta altura blank == 255 nas duas camadas (light compoe sobre
+        # branco; dark ja inverteu e zerou o fundo). O fade empurra as
+        # bordas para o blank, entao o cabelo/queixo que encostam no crop
+        # afunilam em vez de cortarem reto.
+        h, w = gray.shape
+        yy, xx = np.mgrid[0:h, 0:w].astype("float32")
+        xx = (xx / w - VIG_C[0]) / VIG_R[0]
+        yy = (yy / h - VIG_C[1]) / VIG_R[1]
+        d = np.sqrt(xx * xx + yy * yy)
+        f = np.clip((d - VIG_START) / (VIG_FULL - VIG_START), 0, 1)
+        gray = (gray * (1 - f) + 255.0 * f).astype("uint8")
     return Image.fromarray(gray)
 
 
