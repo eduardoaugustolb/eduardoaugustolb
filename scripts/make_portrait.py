@@ -72,11 +72,9 @@ ROW_RATIO = 0.50           # monospace cells are about twice as tall as wide
 DITHER = True              # Floyd-Steinberg: preserva oculos, dentes, contornos
 JITTER = 0.45              # deslocamento horizontal por linha (fração de CHAR_W)
 JITTER_SEED = 7            # fixo p/ o retrato ser deterministico entre runs
-VIGNETTE = True            # fade eliptico: queixo/cabelo desvanecem em vez de
-VIG_C = (0.50, 0.42)       # terminarem em corte reto na borda do crop
-VIG_R = (0.46, 0.48)       # (centro e raios em fracao da imagem)
-VIG_START = 0.78           # onde o fade comeca (fracao do raio)
-VIG_FULL = 1.02            # onde vira totalmente blank
+VIGNETTE = True            # fade vertical suave: as faixas do topo (cabelo)
+VIG_TOP = 0.10             # e da base (queixo) afunilam em vez de cortarem
+VIG_BOT = 0.12             # reto — laterais e tamanho do rosto intactos
 
 FG_LIGHT = "#6e7681"       # readable on GitHub light — the portrait's grey
 FG_DARK = "#c9d1d9"        # and its dark-mode step
@@ -200,14 +198,16 @@ def prep(path, crop=None, no_bg=False, invert=False, curve=None):
     if VIGNETTE:
         # Nesta altura blank == 255 nas duas camadas (light compoe sobre
         # branco; dark ja inverteu e zerou o fundo). O fade empurra as
-        # bordas para o blank, entao o cabelo/queixo que encostam no crop
-        # afunilam em vez de cortarem reto.
+        # faixas do topo e da base para o blank com smoothstep, entao o
+        # cabelo/queixo que encostam no crop afunilam em vez de cortarem
+        # reto. So vertical: laterais, orelhas e largura intactas.
         h, w = gray.shape
-        yy, xx = np.mgrid[0:h, 0:w].astype("float32")
-        xx = (xx / w - VIG_C[0]) / VIG_R[0]
-        yy = (yy / h - VIG_C[1]) / VIG_R[1]
-        d = np.sqrt(xx * xx + yy * yy)
-        f = np.clip((d - VIG_START) / (VIG_FULL - VIG_START), 0, 1)
+        yy = np.arange(h, dtype="float32")[:, None] / h
+        f_top = np.clip((VIG_TOP - yy) / VIG_TOP, 0, 1)
+        f_bot = np.clip((yy - (1 - VIG_BOT)) / VIG_BOT, 0, 1)
+        f = np.maximum(f_top, f_bot)
+        f = f * f * (3 - 2 * f)  # smoothstep: transição sem degrau
+        f = np.broadcast_to(f, (h, w))
         gray = (gray * (1 - f) + 255.0 * f).astype("uint8")
     return Image.fromarray(gray)
 
