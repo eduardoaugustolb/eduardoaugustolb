@@ -12,74 +12,66 @@
   <img src="./stats.svg" width="320" alt="Eduardo Augusto's GitHub contributions over the past year" />
 </p>
 
-Hi! I'm **Eduardo**, a developer focused on building **high-performance interfaces** and **flawless user experiences**.
+I'm Eduardo. I build fast interfaces and work on making them easy to use.
 
-My specialty is the **React/Next.js** ecosystem with a strong focus on **type safety** and clean code. I'm currently building **Versum**, a multi-platform Bible reader with no feed, no likes, and no rankings — focused on reading at your own pace.
+I specialize in React and Next.js, with an emphasis on type safety and clean code. I'm currently building Versum, a multi-platform Bible reader for reading at your own pace. It has no feed, likes, or rankings.
 
-Solid experience with modern backends (**Hono, Express, Fastify**), always exploring new technologies to solve real problems.
+I also have experience building backends with Hono, Express, and Fastify, and I explore other technologies as new problems come up.
 
-**Available for freelance now:** [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
+Available for freelance now: [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
 
 ## <img src="./hd-projects.svg" width="620" alt="Projects" />
 
-### **Versum** - Multi-Platform Bible Reader
+### Versum - Multi-platform Bible reader
 
-A way to read the whole Bible at your own pace — no feed, no likes, no rankings. Magic-link auth, progress synced across devices, offline reading on Android, and chapter/verse sharing.
+Read the whole Bible at your own pace, without a feed, likes, or rankings. Magic-link auth, progress synced across devices, offline reading on Android, and chapter/verse sharing.
 
-**Tech:**
-- **Backend:** Go, PostgreSQL, Redis
-- **Web:** Next.js (planned)
-- **Mobile:** React Native / Expo (planned)
-- **Status:** Pre-alpha. Architecture and product defined, implementation starting with the biblical corpus
+Tech:
+- Backend: Go, PostgreSQL, Redis
+- Web: Next.js (planned)
+- Mobile: React Native / Expo (planned)
+- Status: Pre-alpha. Architecture and product defined, implementation starting with the biblical corpus
 
-**GitHub:** [Versum Repository](https://github.com/eduardoaugustolb/versum)
+GitHub: [Versum Repository](https://github.com/eduardoaugustolb/versum)
 
-### **Affiliate Hub** - Frost Drops
+### Affiliate Hub - Frost Drops
 
 End-to-end automation for a streetwear and fragrance affiliate profile: syncs products and links (Shopee, Shein, Mercado Livre), auto-generates post images, and distributes new products to a WhatsApp group.
 
-**Tech:**
-- **Language:** TypeScript
-- **Runtime:** Bun
-- **Architecture:** Clean Architecture + Hexagonal (Ports & Adapters)
-- **Status:** In progress. Auth and product catalog modules already implemented
+Tech:
+- Language: TypeScript
+- Runtime: Bun
+- Architecture: Clean Architecture + Hexagonal (Ports & Adapters)
+- Status: In progress. Auth and product catalog modules already implemented
 
-**GitHub:** [Affiliate Hub Repository](https://github.com/eduardoaugustolb/affiliate-hub)
+GitHub: [Affiliate Hub Repository](https://github.com/eduardoaugustolb/affiliate-hub)
 
-## <img src="./hd-stack.svg" width="620" alt="Tech Stack - What I Work With" />
+## <img src="./hd-stack.svg" width="620" alt="Technologies I work with" />
 
-### **Frontend (Main Specialty)**
-- **Frameworks:** Next.js 16, React 19
-- **Language:** TypeScript (type-safe)
-- **Styling:** Tailwind CSS, CSS3, HTML5, JavaScript
-- **Focus:** Performance, UX/UI, Responsiveness
+### Frontend (main specialty)
+- Frameworks: Next.js 16, React 19
+- Language: TypeScript (type-safe)
+- Styling: Tailwind CSS, CSS3, HTML5, JavaScript
+- Focus: Performance, UX/UI, Responsiveness
 
-### **Backend (Actively Developing)**
-- **Runtimes:** Node.js, Bun
-- **Frameworks:** Hono.js, Express, Fastify
-- **Databases:** PostgreSQL, Redis
-- **ORM:** Drizzle ORM
-- **Currently learning:** Go (beginner)
+### Backend (actively developing)
+- Runtimes: Node.js, Bun
+- Frameworks: Hono.js, Express, Fastify
+- Databases: PostgreSQL, Redis
+- ORM: Drizzle ORM
+- Currently learning: Go (beginner)
 
-### **Tools & Workflow**
-- **Editors:** Zed, VS Code
-- **Version Control:** Git, GitHub
-- **Package Managers:** Bun, npm
-- **Environment:** Linux (CachyOS)
+### Tools and workflow
+- Editors: Zed, VS Code
+- Version Control: Git, GitHub
+- Package Managers: Bun, npm
+- Environment: Linux (CachyOS)
 
 ## <img src="./hd-highlights.svg" width="620" alt="Why Work With Me" />
 
-**Performance First** - I optimize Core Web Vitals and user experience
+I optimize Core Web Vitals and work on the user experience. Type safety in TypeScript helps me reduce bugs, and I aim to keep the code clean, maintainable, and scalable.
 
-**Full Type Safety** - Type-safe TypeScript code, fewer bugs
-
-**Modern Stack** - Next.js 16, Hono, Bun, React 19
-
-**Frontend + Backend** - Able to work full-stack when needed
-
-**Quality Focus** - Clean, maintainable, scalable code
-
-**Clear Communication** - Regular updates and availability
+I work with Next.js 16, Hono, Bun, and React 19, covering both frontend and backend when needed. During a project, I send regular updates and stay available to discuss the work.
 
 ## <img src="./hd-stats.svg" width="620" alt="GitHub Stats and Activity" />
 
@@ -93,27 +85,17 @@ End-to-end automation for a streetwear and fragrance affiliate profile: syncs pr
 
 </div>
 
-## <img src="./hd-contact.svg" width="620" alt="Let's Connect" />
+## <img src="./hd-contact.svg" width="620" alt="Contact" />
 
-**Available for freelance projects in:**
+Available for freelance projects in:
 - Next.js development
 - APIs with Hono, Express, Fastify
 - Web performance optimization
 - Frontend consulting
 
-> **Have a project in mind? Send me the details.**
+> Have a project in mind? Send me the details.
 > [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
 
 [discord](https://discord.com/users/909580127644549201) &nbsp;·&nbsp;
 [youtube](https://www.youtube.com/@eduardo.developer) &nbsp;·&nbsp;
 [instagram](https://www.instagram.com/eduardoaugustolb/)
-
----
-
-<div align="center">
-
-**Real Developer. Real Code.**
-
-[**contato@eduardoaugusto.work**](mailto:contato@eduardoaugusto.work)
-
-</div>
