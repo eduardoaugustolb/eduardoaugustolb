@@ -12,49 +12,53 @@
   <img src="./stats.svg" width="320" alt="Contribuições de Eduardo Augusto no GitHub no último ano" />
 </p>
 
-Sou o Eduardo. Desenvolvo interfaces rápidas e trabalho para torná-las fáceis de usar.
+Sou o Eduardo, desenvolvedor com foco em interfaces rápidas e fáceis de usar.
 
-Minha especialidade é React e Next.js, com atenção a type safety e clean code. Atualmente, desenvolvo o Versum, um leitor bíblico multiplataforma para ler no seu próprio ritmo. Ele não tem feed, curtidas ou ranking.
+Trabalho principalmente com React e Next.js, usando TypeScript com atenção a type safety e clean code. Atualmente, estou desenvolvendo o Versum, um leitor bíblico multiplataforma.
 
-Também tenho experiência com backends em Hono, Express e Fastify, e exploro outras tecnologias conforme surgem novos problemas.
+Também desenvolvo backends com Hono, Express e Fastify. Conforme surgem novos problemas, estudo outras tecnologias para resolvê-los.
 
-Disponível para oportunidades de trabalho e projetos freelance: [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
+Estou disponível para oportunidades de trabalho e projetos freelance: [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
 
 ## <img src="./hd-projects.svg" width="620" alt="Projetos" />
 
 ### Versum - Leitor bíblico multiplataforma
 
-Uma forma de ler a Bíblia inteira no seu próprio ritmo, sem feed, sem curtidas e sem ranking. Autenticação por magic link, progresso sincronizado entre dispositivos, leitura offline no Android e compartilhamento de capítulos e versículos.
+O Versum é um leitor para quem quer ler a Bíblia inteira no próprio ritmo, sem feed, curtidas ou ranking. O projeto inclui autenticação por magic link e sincronização do progresso entre dispositivos, além de leitura offline no Android e compartilhamento de capítulos e versículos.
 
 Tecnologias:
+
 - Backend: Go, PostgreSQL, Redis
 - Web: Next.js (planejado)
 - Mobile: React Native / Expo (planejado)
-- Status: Pre-alpha. Arquitetura e produto definidos, implementação começando pelo corpus bíblico
+- Status: Pre-alpha. A arquitetura e o produto estão definidos. A implementação está começando pelo corpus bíblico.
 
 GitHub: [Versum Repository](https://github.com/eduardoaugustolb/versum)
 
 ### Affiliate Hub - Drops do Frost
 
-Automação de ponta a ponta para um perfil de afiliados de streetwear e perfumes: sincroniza produtos e links (Shopee, Shein, Mercado Livre), gera imagens de post automaticamente e distribui novos produtos em um grupo de WhatsApp.
+O Affiliate Hub automatiza o trabalho de um perfil de afiliados de streetwear e perfumes. Sincroniza produtos e links da Shopee, Shein e Mercado Livre, gera imagens para os posts e envia os novos produtos para um grupo de WhatsApp.
 
 Tecnologias:
+
 - Linguagem: TypeScript
 - Runtime: Bun
 - Arquitetura: Clean Architecture + Hexagonal (Ports & Adapters)
-- Status: Em desenvolvimento. Módulos de autenticação e catálogo de produtos já implementados
+- Status: Em desenvolvimento, com os módulos de autenticação e catálogo de produtos já implementados.
 
 GitHub: [Affiliate Hub Repository](https://github.com/eduardoaugustolb/affiliate-hub)
 
 ## <img src="./hd-stack.svg" width="620" alt="Tecnologias com que trabalho" />
 
 ### Frontend (especialidade principal)
+
 - Frameworks: Next.js 16, React 19
 - Linguagem: TypeScript (type-safe)
 - Styling: Tailwind CSS, CSS3, HTML5, JavaScript
 - Foco: Performance, UX/UI, responsiveness
 
-### Backend (em desenvolvimento)
+### Backend
+
 - Runtimes: Node.js, Bun
 - Frameworks: Hono.js, Express, Fastify
 - Databases: PostgreSQL, Redis
@@ -62,6 +66,7 @@ GitHub: [Affiliate Hub Repository](https://github.com/eduardoaugustolb/affiliate
 - Estou aprendendo: Go (iniciante)
 
 ### Ferramentas e workflow
+
 - Editors: Zed, VS Code
 - Version control: Git, GitHub
 - Package Managers: Bun, npm
@@ -69,11 +74,11 @@ GitHub: [Affiliate Hub Repository](https://github.com/eduardoaugustolb/affiliate
 
 ## <img src="./hd-highlights.svg" width="620" alt="Como trabalho" />
 
-Otimizo Core Web Vitals e trabalho na user experience. Type safety no TypeScript me ajuda a reduzir bugs, e procuro manter o código limpo, fácil de manter e escalável.
+Otimizo Core Web Vitals e cuido da user experience. Uso type safety no TypeScript para reduzir bugs e procuro escrever código que seja fácil de manter e possa crescer com a aplicação.
 
-Trabalho com Next.js 16, Hono, Bun e React 19, atuando no frontend e no backend quando necessário. Durante o projeto, envio atualizações regulares e fico disponível para conversar sobre o trabalho.
+Minha stack inclui Next.js 16, React 19, Hono e Bun. Posso atuar no frontend e no backend, conforme o projeto precisar. Ao longo do trabalho, envio atualizações regulares e mantenho contato para discutir o andamento.
 
-## <img src="./hd-stats.svg" width="620" alt="GitHub Stats e Atividade" />
+## <img src="./hd-stats.svg" width="620" alt="GitHub Stats e atividade" />
 
 <div align="center">
 
@@ -87,8 +92,9 @@ Trabalho com Next.js 16, Hono, Bun e React 19, atuando no frontend e no backend 
 
 ## <img src="./hd-contact.svg" width="620" alt="Contato" />
 
-Posso trabalhar com:
-- Desenvolvimento Next.js
+Atuo com:
+
+- Desenvolvimento com Next.js
 - APIs com Hono, Express, Fastify
 - Otimização de performance web
 - Consultoria frontend
