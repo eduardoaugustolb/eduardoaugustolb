@@ -18,7 +18,7 @@ Minha especialidade é React e Next.js, com atenção à segurança de tipos e a
 
 Também tenho experiência com backends em Hono, Express e Fastify, e exploro outras tecnologias conforme surgem novos problemas.
 
-Disponível agora para freelance: [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
+Disponível para oportunidades de trabalho e projetos freelance: [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
 
 ## <img src="./hd-projects.svg" width="620" alt="Projetos" />
 
@@ -65,7 +65,7 @@ GitHub: [Affiliate Hub Repository](https://github.com/eduardoaugustolb/affiliate
 - Editors: Zed, VS Code
 - Versionamento: Git, GitHub
 - Package Managers: Bun, npm
-- Ambiente: Linux (CachyOS)
+- Ambiente: Linux (Omarchy)
 
 ## <img src="./hd-highlights.svg" width="620" alt="Como trabalho" />
 
@@ -87,7 +87,7 @@ Trabalho com Next.js 16, Hono, Bun e React 19, atuando no frontend e no backend 
 
 ## <img src="./hd-contact.svg" width="620" alt="Contato" />
 
-Disponível para projetos freelance em:
+Posso trabalhar com:
 - Desenvolvimento Next.js
 - APIs com Hono, Express, Fastify
 - Otimização de performance web
