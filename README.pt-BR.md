@@ -18,6 +18,8 @@ Trabalho principalmente com React e Next.js, usando TypeScript com atenção a t
 
 Também desenvolvo backends com Hono, Express e Fastify. Conforme surgem novos problemas, estudo outras tecnologias para resolvê-los.
 
+Gosto muito de estudar Clean Architecture, Hexagonal Architecture, DDD e TDD.
+
 Estou disponível para oportunidades de trabalho e projetos freelance: [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
 
 ## <img src="./hd-projects.svg" width="620" alt="Projetos" />

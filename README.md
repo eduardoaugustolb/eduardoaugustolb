@@ -18,6 +18,8 @@ I specialize in React and Next.js, with an emphasis on type safety and clean cod
 
 I also have experience building backends with Hono, Express, and Fastify, and I explore other technologies as new problems come up.
 
+I really enjoy studying Clean Architecture, Hexagonal Architecture, DDD, and TDD.
+
 Available for job opportunities and freelance projects: [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
 
 ## <img src="./hd-projects.svg" width="620" alt="Projects" />
