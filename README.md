@@ -91,7 +91,6 @@ I can help with:
 - Next.js development
 - APIs with Hono, Express, Fastify
 - Web performance optimization
-- Frontend consulting
 
 > Have a project in mind? Send me the details.
 > [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)

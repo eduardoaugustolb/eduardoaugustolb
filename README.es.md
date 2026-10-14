@@ -91,7 +91,6 @@ Puedo trabajar en:
 - Desarrollo Next.js
 - APIs con Hono, Express, Fastify
 - Optimización de performance web
-- Consultoría frontend
 
 > ¿Tienes un proyecto en mente? Envíame los detalles.
 > [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
