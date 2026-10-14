@@ -5,7 +5,7 @@
 # Eduardo Augusto - Developer | Next.js, TypeScript & Backend
 
 <p align="center">
-  <img src="./ascii.svg" width="280" alt="Retrato de Eduardo Augusto en arte ASCII" />
+  <img src="./ascii.svg" width="280" alt="Retrato de Eduardo Augusto en ASCII art" />
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@
 
 Soy Eduardo. Desarrollo interfaces rápidas y trabajo para que sean fáciles de usar.
 
-Me especializo en React y Next.js, con atención a la seguridad de tipos y al código limpio. Actualmente desarrollo Versum, un lector bíblico multiplataforma para leer a tu propio ritmo. No tiene feed, me gusta ni rankings.
+Me especializo en React y Next.js, con atención a type safety y clean code. Actualmente desarrollo Versum, un lector bíblico multiplataforma para leer a tu propio ritmo. No tiene feed, me gusta ni rankings.
 
 También tengo experiencia con backends en Hono, Express y Fastify, y exploro otras tecnologías conforme surgen nuevos problemas.
 
@@ -24,13 +24,13 @@ Disponible para oportunidades laborales y proyectos freelance: [contato@eduardoa
 
 ### Versum - Lector bíblico multiplataforma
 
-Lee toda la Biblia a tu propio ritmo, sin feed, me gusta ni rankings. Autenticación por magic link, progreso sincronizado entre dispositivos, lectura sin conexión en Android y uso compartido de capítulos y versículos.
+Lee toda la Biblia a tu propio ritmo, sin feed, me gusta ni rankings. Autenticación por magic link, progreso sincronizado entre dispositivos, lectura offline en Android y uso compartido de capítulos y versículos.
 
 Tecnologías:
 - Backend: Go, PostgreSQL, Redis
 - Web: Next.js (planeado)
-- Móvil: React Native / Expo (planeado)
-- Estado: Pre-alfa. Arquitectura y producto definidos, implementación comenzando por el corpus bíblico
+- Mobile: React Native / Expo (planeado)
+- Status: Pre-alpha. Arquitectura y producto definidos, implementación comenzando por el corpus bíblico
 
 GitHub: [Versum Repository](https://github.com/eduardoaugustolb/versum)
 
@@ -42,7 +42,7 @@ Tecnologías:
 - Lenguaje: TypeScript
 - Runtime: Bun
 - Arquitectura: Clean Architecture + Hexagonal (Ports & Adapters)
-- Estado: En desarrollo. Módulos de autenticación y catálogo de productos ya implementados
+- Status: En desarrollo. Módulos de autenticación y catálogo de productos ya implementados
 
 GitHub: [Affiliate Hub Repository](https://github.com/eduardoaugustolb/affiliate-hub)
 
@@ -51,25 +51,25 @@ GitHub: [Affiliate Hub Repository](https://github.com/eduardoaugustolb/affiliate
 ### Frontend (especialidad principal)
 - Frameworks: Next.js 16, React 19
 - Lenguaje: TypeScript (type-safe)
-- Estilos: Tailwind CSS, CSS3, HTML5, JavaScript
-- Enfoque: Rendimiento, UX/UI, Capacidad de respuesta
+- Styling: Tailwind CSS, CSS3, HTML5, JavaScript
+- Enfoque: Performance, UX/UI, responsiveness
 
 ### Backend (en desarrollo)
 - Runtimes: Node.js, Bun
 - Frameworks: Hono.js, Express, Fastify
-- Bases de datos: PostgreSQL, Redis
+- Databases: PostgreSQL, Redis
 - ORM: Drizzle ORM
 - Aprendiendo actualmente: Go (principiante)
 
-### Herramientas y flujo de trabajo
-- Editores: Zed, VS Code
-- Control de versiones: Git, GitHub
-- Gestores de paquetes: Bun, npm
+### Herramientas y workflow
+- Editors: Zed, VS Code
+- Version control: Git, GitHub
+- Package Managers: Bun, npm
 - Entorno: Linux (Omarchy)
 
 ## <img src="./hd-highlights.svg" width="620" alt="Cómo trabajo" />
 
-Optimizo Core Web Vitals y trabajo en la experiencia de usuario. La seguridad de tipos en TypeScript me ayuda a reducir errores, y procuro mantener el código limpio, mantenible y escalable.
+Optimizo Core Web Vitals y trabajo en user experience. Type safety en TypeScript me ayuda a reducir bugs, y procuro mantener el código limpio, mantenible y escalable.
 
 Trabajo con Next.js 16, Hono, Bun y React 19, tanto en frontend como en backend cuando hace falta. Durante el proyecto, envío actualizaciones periódicas y estoy disponible para hablar sobre el trabajo.
 
@@ -77,7 +77,7 @@ Trabajo con Next.js 16, Hono, Bun y React 19, tanto en frontend como en backend 
 
 <div align="center">
 
-<img src="./streak.svg" width="620" alt="Rachas de contribuciones actual y más larga de Eduardo Augusto" />
+<img src="./streak.svg" width="620" alt="Streak actual y más largo de contribuciones de Eduardo Augusto" />
 
 <img src="./langs.svg" width="620" alt="Principales lenguajes de Eduardo Augusto, por bytes y por repositorio" />
 
@@ -90,7 +90,7 @@ Trabajo con Next.js 16, Hono, Bun y React 19, tanto en frontend como en backend 
 Puedo trabajar en:
 - Desarrollo Next.js
 - APIs con Hono, Express, Fastify
-- Optimización del rendimiento web
+- Optimización de performance web
 - Consultoría frontend
 
 > ¿Tienes un proyecto en mente? Envíame los detalles.

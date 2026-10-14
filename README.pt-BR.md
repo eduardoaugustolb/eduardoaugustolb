@@ -14,7 +14,7 @@
 
 Sou o Eduardo. Desenvolvo interfaces rápidas e trabalho para torná-las fáceis de usar.
 
-Minha especialidade é React e Next.js, com atenção à segurança de tipos e ao código limpo. Atualmente, desenvolvo o Versum, um leitor bíblico multiplataforma para ler no seu próprio ritmo. Ele não tem feed, curtidas ou ranking.
+Minha especialidade é React e Next.js, com atenção a type safety e clean code. Atualmente, desenvolvo o Versum, um leitor bíblico multiplataforma para ler no seu próprio ritmo. Ele não tem feed, curtidas ou ranking.
 
 Também tenho experiência com backends em Hono, Express e Fastify, e exploro outras tecnologias conforme surgem novos problemas.
 
@@ -30,7 +30,7 @@ Tecnologias:
 - Backend: Go, PostgreSQL, Redis
 - Web: Next.js (planejado)
 - Mobile: React Native / Expo (planejado)
-- Status: Pré-alpha. Arquitetura e produto definidos, implementação começando pelo corpus bíblico
+- Status: Pre-alpha. Arquitetura e produto definidos, implementação começando pelo corpus bíblico
 
 GitHub: [Versum Repository](https://github.com/eduardoaugustolb/versum)
 
@@ -50,9 +50,9 @@ GitHub: [Affiliate Hub Repository](https://github.com/eduardoaugustolb/affiliate
 
 ### Frontend (especialidade principal)
 - Frameworks: Next.js 16, React 19
-- Linguagem: TypeScript (Type-safe)
+- Linguagem: TypeScript (type-safe)
 - Styling: Tailwind CSS, CSS3, HTML5, JavaScript
-- Foco: Performance, UX/UI, Responsividade
+- Foco: Performance, UX/UI, responsiveness
 
 ### Backend (em desenvolvimento)
 - Runtimes: Node.js, Bun
@@ -61,15 +61,15 @@ GitHub: [Affiliate Hub Repository](https://github.com/eduardoaugustolb/affiliate
 - ORM: Drizzle ORM
 - Estou aprendendo: Go (iniciante)
 
-### Ferramentas e rotina de trabalho
+### Ferramentas e workflow
 - Editors: Zed, VS Code
-- Versionamento: Git, GitHub
+- Version control: Git, GitHub
 - Package Managers: Bun, npm
 - Ambiente: Linux (Omarchy)
 
 ## <img src="./hd-highlights.svg" width="620" alt="Como trabalho" />
 
-Otimizo Core Web Vitals e trabalho na experiência de quem usa a aplicação. A segurança de tipos no TypeScript me ajuda a reduzir bugs, e procuro manter o código limpo, fácil de manter e escalável.
+Otimizo Core Web Vitals e trabalho na user experience. Type safety no TypeScript me ajuda a reduzir bugs, e procuro manter o código limpo, fácil de manter e escalável.
 
 Trabalho com Next.js 16, Hono, Bun e React 19, atuando no frontend e no backend quando necessário. Durante o projeto, envio atualizações regulares e fico disponível para conversar sobre o trabalho.
 
