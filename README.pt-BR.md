@@ -2,9 +2,13 @@
   <sub><a href="./README.md">English</a> &nbsp;·&nbsp; <strong>Português (BR)</strong> &nbsp;·&nbsp; <a href="./README.es.md">Español</a></sub>
 </p>
 
+<p align="center">
+  <img src="./logo.svg" width="100" alt="Eduardo Augusto · EA" />
+</p>
+
 <h1 align="center">Eduardo Augusto · Eduardo Developer</h1>
 
-<p align="center">Desenvolvedor full stack com TypeScript, React, Next.js, Node.js e Go.</p>
+<p align="center">Desenvolvedor full stack</p>
 
 <p align="center">
   <a href="https://eduardoaugusto.work/">Portfólio</a> &nbsp;·&nbsp;
