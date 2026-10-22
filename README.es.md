@@ -11,7 +11,7 @@
 
 Desarrollo interfaces web rápidas y fáciles de usar y los backends que las sustentan, con atención al rendimiento, type safety y código fácil de mantener.
 
-<a href="https://eduardoaugusto.work/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/paper/globe.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/ink/globe.svg" height="24" align="middle" alt="" /></picture> Portafolio</a> &nbsp;·&nbsp; <a href="https://www.youtube.com/@eduardo.developer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/youtube.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/youtube.svg" height="28" align="middle" alt="YouTube" /></picture></a> &nbsp;·&nbsp; <a href="mailto:contato@eduardoaugusto.work"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/paper/mail.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/ink/mail.svg" height="24" align="middle" alt="" /></picture> Contacto</a>
+<a href="https://eduardoaugusto.work/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/globe.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/globe.svg" height="28" align="middle" alt="Portafolio" /></picture></a> &nbsp;·&nbsp; <a href="https://www.youtube.com/@eduardo.developer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/youtube.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/youtube.svg" height="28" align="middle" alt="YouTube" /></picture></a> &nbsp;·&nbsp; <a href="mailto:contato@eduardoaugusto.work"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/mail.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/mail.svg" height="28" align="middle" alt="Contacto" /></picture></a>
 
 <p align="center">
 <picture>
@@ -20,7 +20,7 @@ Desarrollo interfaces web rápidas y fáciles de usar y los backends que las sus
 </picture>
 </p>
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/paper/folder.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/ink/folder.svg" height="24" align="middle" alt="" /></picture> Proyectos
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/paper/folder.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/ink/folder.svg" height="24" align="top" alt="" /></picture> Proyectos
 
 ### [Versum](https://github.com/eduardoaugustolb/versum)
 
@@ -34,7 +34,7 @@ Automatización para un perfil de afiliados de streetwear y fragancias: sincroni
 
 En desarrollo · TypeScript, Bun · Clean Architecture y arquitectura hexagonal.
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/paper/code.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/ink/code.svg" height="24" align="middle" alt="" /></picture> Tecnologías
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/paper/code.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/ink/code.svg" height="24" align="top" alt="" /></picture> Tecnologías
 
 **Frontend:**
 
@@ -63,17 +63,17 @@ Hono · Express · Fastify · Drizzle ORM
 </p>
 Zed · VS Code
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/paper/chart.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/ink/chart.svg" height="24" align="middle" alt="" /></picture> Actividad
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/paper/chart.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/ink/chart.svg" height="24" align="top" alt="" /></picture> Actividad
 
 <p align="center">
   <img src="./year.svg" width="620" alt="Contribuciones en GitHub durante el último año, un carácter por día" />
 </p>
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/paper/message-circle.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/ink/message-circle.svg" height="24" align="middle" alt="" /></picture> Contacto
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/paper/message-circle.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/ink/message-circle.svg" height="24" align="top" alt="" /></picture> Contacto
 
 Disponible para oportunidades laborales y proyectos freelance. ¿Tienes un proyecto en mente? Envíame los detalles.
 
-<a href="mailto:contato@eduardoaugusto.work"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/paper/mail.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/ink/mail.svg" height="24" align="middle" alt="" /></picture> contato@eduardoaugusto.work</a>
+<a href="mailto:contato@eduardoaugusto.work"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/mail.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/mail.svg" height="28" align="middle" alt="contato@eduardoaugusto.work" /></picture></a>
 
 <a href="https://discord.com/users/909580127644549201"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/discord.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/discord.svg" height="28" align="middle" alt="Discord" /></picture></a> &nbsp;·&nbsp;
 <a href="https://www.instagram.com/eduardoaugustolb/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/instagram.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/instagram.svg" height="28" align="middle" alt="Instagram" /></picture></a>
