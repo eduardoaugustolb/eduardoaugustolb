@@ -1,30 +1,16 @@
-<p align="center">
-  <sub><a href="./README.md">English</a> &nbsp;·&nbsp; <a href="./README.pt-BR.md">Português (BR)</a> &nbsp;·&nbsp; <strong>Español</strong></sub>
-</p>
+<p><sub><a href="./README.md">English</a> &nbsp;·&nbsp; <a href="./README.pt-BR.md">Português (BR)</a> &nbsp;·&nbsp; <strong>Español</strong></sub></p>
+
+<h1><img src="./logo-light.svg#gh-light-mode-only" width="36" alt="EA" /><img src="./logo-dark.svg#gh-dark-mode-only" width="36" alt="EA" /> Eduardo Augusto</h1>
+
+<p><strong>Eduardo Developer</strong> · Desarrollador full stack</p>
+
+Desarrollo interfaces web rápidas y fáciles de usar y los backends que las sustentan, con atención al rendimiento, type safety y código fácil de mantener.
+
+[Portafolio](https://eduardoaugusto.work/) &nbsp;·&nbsp; [YouTube](https://www.youtube.com/@eduardo.developer) &nbsp;·&nbsp; [Contacto](mailto:contato@eduardoaugusto.work)
 
 <p align="center">
-  <img src="./logo.svg" width="100" alt="Eduardo Augusto · EA" />
+  <img src="./ascii-light.svg#gh-light-mode-only" width="200" alt="Retrato de Eduardo Augusto en ASCII art" /><img src="./ascii-dark.svg#gh-dark-mode-only" width="200" alt="Retrato de Eduardo Augusto en ASCII art" />
 </p>
-
-<h1 align="center">Eduardo Augusto · Eduardo Developer</h1>
-
-<p align="center">Desarrollador full stack</p>
-
-<p align="center">
-  <a href="https://eduardoaugusto.work/">Portafolio</a> &nbsp;·&nbsp;
-  <a href="https://www.youtube.com/@eduardo.developer">YouTube</a> &nbsp;·&nbsp;
-  <a href="mailto:contato@eduardoaugusto.work">Contacto</a>
-</p>
-
-<br>
-
-<p align="center">
-  <img src="./ascii.svg" width="360" alt="Retrato de Eduardo Augusto en ASCII art" />
-</p>
-
-<br>
-
-Soy Eduardo. Desarrollo interfaces web rápidas y fáciles de usar y los backends que las sustentan, con atención al rendimiento, type safety y código fácil de mantener.
 
 ## Proyectos
 

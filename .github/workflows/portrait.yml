@@ -33,6 +33,8 @@ jobs:
         with:
           python-version: "3.12"
 
+      - uses: oven-sh/setup-bun@v2
+
       - uses: astral-sh/setup-uv@v5
 
       # rembg (u2net model, ~176MB) downloads on the first run; caching avoids
@@ -59,15 +61,16 @@ jobs:
         run: |
           python3 scripts/make_portrait.py /tmp/avatar.png ascii.svg --crop "$CROP"
           python3 scripts/embed_portrait_font.py
+          bun scripts/build-hero-assets.ts
 
       - name: Commit whatever changed
         run: |
-          if [ -z "$(git status --porcelain -- ascii.svg)" ]; then
+          if [ -z "$(git status --porcelain -- ascii.svg ascii-light.svg ascii-dark.svg logo-light.svg logo-dark.svg)" ]; then
             echo "no change"
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ascii.svg
+          git add ascii.svg ascii-light.svg ascii-dark.svg logo-light.svg logo-dark.svg
           git commit -m "portrait: refresh ascii.svg from current avatar"
           git push
