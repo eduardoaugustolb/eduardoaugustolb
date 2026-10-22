@@ -36,7 +36,7 @@ In progress · TypeScript, Bun · Clean Architecture and Hexagonal Architecture.
 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/paper/code.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/ink/code.svg" height="24" align="top" alt="" /></picture> Technologies
 
-**Frontend:**
+<p><strong>Frontend:</strong></p>
 
 <p>
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/typescript.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/typescript.svg" height="28" align="middle" alt="TypeScript" /></picture>
@@ -44,7 +44,8 @@ In progress · TypeScript, Bun · Clean Architecture and Hexagonal Architecture.
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/next-js.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/next-js.svg" height="28" align="middle" alt="Next.js" /></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/tailwind-css.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/tailwind-css.svg" height="28" align="middle" alt="Tailwind CSS" /></picture>
 </p>
-**Backend:**
+
+<p><strong>Backend:</strong></p>
 
 <p>
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/node-js.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/node-js.svg" height="28" align="middle" alt="Node.js" /></picture>
@@ -53,14 +54,17 @@ In progress · TypeScript, Bun · Clean Architecture and Hexagonal Architecture.
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/postgresql.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/postgresql.svg" height="28" align="middle" alt="PostgreSQL" /></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/redis.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/redis.svg" height="28" align="middle" alt="Redis" /></picture>
 </p>
+
 Hono · Express · Fastify · Drizzle ORM
-**Tools:**
+
+<p><strong>Tools:</strong></p>
 
 <p>
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/git.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/git.svg" height="28" align="middle" alt="Git" /></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/github.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/github.svg" height="28" align="middle" alt="GitHub" /></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/linux.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/linux.svg" height="28" align="middle" alt="Linux" /></picture>
 </p>
+
 Zed · VS Code
 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/paper/chart.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/ink/chart.svg" height="24" align="top" alt="" /></picture> Activity
@@ -73,7 +77,6 @@ Zed · VS Code
 
 Available for job opportunities and freelance projects. Have a project in mind? Send me the details.
 
-<a href="mailto:contato@eduardoaugusto.work"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/mail.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/mail.svg" height="28" align="middle" alt="contato@eduardoaugusto.work" /></picture></a>
-
+<a href="mailto:contato@eduardoaugusto.work"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/mail.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/mail.svg" height="28" align="middle" alt="contato@eduardoaugusto.work" /></picture></a> &nbsp;·&nbsp;
 <a href="https://discord.com/users/909580127644549201"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/discord.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/discord.svg" height="28" align="middle" alt="Discord" /></picture></a> &nbsp;·&nbsp;
 <a href="https://www.instagram.com/eduardoaugustolb/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/instagram.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/instagram.svg" height="28" align="middle" alt="Instagram" /></picture></a>
