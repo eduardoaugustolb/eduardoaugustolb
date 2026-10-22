@@ -1,5 +1,10 @@
 <p><sub><strong>English</strong> &nbsp;·&nbsp; <a href="./README.pt-BR.md">Português (BR)</a> &nbsp;·&nbsp; <a href="./README.es.md">Español</a></sub></p>
 
+<picture>
+  <source media="(max-width: 767px)" srcset="./ascii.svg" width="0" height="0" />
+  <img src="./ascii.svg" width="200" align="right" alt="" />
+</picture>
+
 <h1><img src="./logo-light.svg#gh-light-mode-only" width="36" alt="EA" /><img src="./logo-dark.svg#gh-dark-mode-only" width="36" alt="EA" /> Eduardo Augusto</h1>
 
 <p><strong>Eduardo Developer</strong> · Full stack developer</p>
@@ -9,7 +14,10 @@ I build fast, easy-to-use web interfaces and the backends behind them, with a fo
 [Portfolio](https://eduardoaugusto.work/) &nbsp;·&nbsp; [YouTube](https://www.youtube.com/@eduardo.developer) &nbsp;·&nbsp; [Contact](mailto:contato@eduardoaugusto.work)
 
 <p align="center">
-  <img src="./ascii-light.svg#gh-light-mode-only" width="200" alt="ASCII art portrait of Eduardo Augusto" /><img src="./ascii-dark.svg#gh-dark-mode-only" width="200" alt="ASCII art portrait of Eduardo Augusto" />
+<picture>
+  <source media="(min-width: 768px)" srcset="./ascii.svg" width="0" height="0" />
+  <img src="./ascii.svg" width="200" alt="ASCII art portrait of Eduardo Augusto" />
+</picture>
 </p>
 
 ## Projects
