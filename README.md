@@ -2,9 +2,9 @@
   <strong>English</strong> &nbsp;·&nbsp; <a href="./README.pt-BR.md">Português (BR)</a> &nbsp;·&nbsp; <a href="./README.es.md">Español</a>
 </p>
 
-# Eduardo Augusto · Eduardo Developer
+<h1 align="center">Eduardo Augusto · Eduardo Developer</h1>
 
-Full stack developer working with TypeScript, React, Next.js, Node.js, and Go.
+<h3 align="center">Full stack developer working with TypeScript, React, Next.js, Node.js, and Go.</h3>
 
 <p align="center">
   <img src="./ascii.svg" width="280" alt="ASCII art portrait of Eduardo Augusto" />
