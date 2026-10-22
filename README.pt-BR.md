@@ -1,111 +1,58 @@
 <p align="center">
-  <a href="./README.md">English</a> &nbsp;·&nbsp; <strong>Português (BR)</strong> &nbsp;·&nbsp; <a href="./README.es.md">Español</a>
+  <sub><a href="./README.md">English</a> &nbsp;·&nbsp; <strong>Português (BR)</strong> &nbsp;·&nbsp; <a href="./README.es.md">Español</a></sub>
 </p>
 
 <h1 align="center">Eduardo Augusto · Eduardo Developer</h1>
 
-<h3 align="center">Desenvolvedor full stack com TypeScript, React, Next.js, Node.js e Go.</h3>
+<p align="center">Desenvolvedor full stack com TypeScript, React, Next.js, Node.js e Go.</p>
 
 <p align="center">
-  <img src="./ascii.svg" width="280" alt="Retrato de Eduardo Augusto em ASCII art" />
+  <a href="https://eduardoaugusto.work/">Portfólio</a> &nbsp;·&nbsp;
+  <a href="https://www.youtube.com/@eduardo.developer">YouTube</a> &nbsp;·&nbsp;
+  <a href="mailto:contato@eduardoaugusto.work">Contato</a>
 </p>
+
+<br>
 
 <p align="center">
-  <img src="./stats.svg" width="320" alt="Contribuições de Eduardo Augusto no GitHub no último ano" />
+  <img src="./ascii.svg" width="360" alt="Retrato de Eduardo Augusto em ASCII art" />
 </p>
 
-Sou o Eduardo, desenvolvedor com foco em interfaces rápidas e fáceis de usar.
+<br>
 
-Trabalho principalmente com React e Next.js, usando TypeScript com atenção a type safety e clean code. Atualmente, estou desenvolvendo o Versum, um leitor bíblico multiplataforma.
+Sou o Eduardo. Construo interfaces web rápidas e fáceis de usar e os backends que as sustentam, com foco em performance, type safety e código fácil de manter.
 
-Também desenvolvo backends com Hono, Express e Fastify. Conforme surgem novos problemas, estudo outras tecnologias para resolvê-los.
+## Projetos
 
-Gosto muito de estudar Clean Architecture, Hexagonal Architecture, DDD e TDD.
+### [Versum](https://github.com/eduardoaugustolb/versum)
 
-Estou disponível para oportunidades de trabalho e projetos freelance: [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)<br>
-Portfólio: [eduardoaugusto.work](https://eduardoaugusto.work/)
+Leitor bíblico multiplataforma para ler no próprio ritmo, sem feed, curtidas ou ranking. O planejamento inclui progresso sincronizado, leitura offline no Android e compartilhamento de capítulos e versículos.
 
-## <img src="./hd-projects.svg" width="620" alt="Projetos" />
+Pre-alpha · Go, PostgreSQL, Redis · Next.js e React Native / Expo planejados.
 
-### Versum - Leitor bíblico multiplataforma
+### [Affiliate Hub](https://github.com/eduardoaugustolb/affiliate-hub)
 
-O Versum é um leitor para quem quer ler a Bíblia inteira no próprio ritmo, sem feed, curtidas ou ranking. O projeto inclui autenticação por magic link e sincronização do progresso entre dispositivos, além de leitura offline no Android e compartilhamento de capítulos e versículos.
+Automação para um perfil de afiliados de streetwear e perfumes: sincronização de produtos e links, geração de imagens para posts e distribuição para um grupo de WhatsApp.
 
-Tecnologias:
+Em desenvolvimento · TypeScript, Bun · Clean Architecture e arquitetura hexagonal.
 
-- Backend: Go, PostgreSQL, Redis
-- Web: Next.js (planejado)
-- Mobile: React Native / Expo (planejado)
-- Status: Pre-alpha. A arquitetura e o produto estão definidos. A implementação está começando pelo corpus bíblico.
+## Tecnologias
 
-GitHub: [Versum Repository](https://github.com/eduardoaugustolb/versum)
+**Frontend:** TypeScript, React, Next.js, Tailwind CSS<br>
+**Backend:** Node.js, Bun, Go, Hono, Express, Fastify, PostgreSQL, Redis, Drizzle ORM<br>
+**Ferramentas:** Git, GitHub, Zed, VS Code, Linux
 
-### Affiliate Hub - Drops do Frost
+## Atividade
 
-O Affiliate Hub automatiza o trabalho de um perfil de afiliados de streetwear e perfumes. Sincroniza produtos e links da Shopee, Shein e Mercado Livre, gera imagens para os posts e envia os novos produtos para um grupo de WhatsApp.
+<p align="center">
+  <img src="./year.svg" width="620" alt="Contribuições no GitHub no último ano, um caractere por dia" />
+</p>
 
-Tecnologias:
+## Contato
 
-- Linguagem: TypeScript
-- Runtime: Bun
-- Arquitetura: Clean Architecture + Hexagonal (Ports & Adapters)
-- Status: Em desenvolvimento, com os módulos de autenticação e catálogo de produtos já implementados.
+Disponível para oportunidades de trabalho e projetos freelance. Tem um projeto em mente? Me manda os detalhes.
 
-GitHub: [Affiliate Hub Repository](https://github.com/eduardoaugustolb/affiliate-hub)
+[contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
 
-## <img src="./hd-stack.svg" width="620" alt="Tecnologias com que trabalho" />
-
-### Frontend (especialidade principal)
-
-- Frameworks: Next.js 16, React 19
-- Linguagem: TypeScript (type-safe)
-- Styling: Tailwind CSS, CSS3, HTML5, JavaScript
-- Foco: Performance, UX/UI, responsiveness
-
-### Backend
-
-- Runtimes: Node.js, Bun
-- Frameworks: Hono.js, Express, Fastify
-- Databases: PostgreSQL, Redis
-- ORM: Drizzle ORM
-- Estou aprendendo: Go (iniciante)
-
-### Ferramentas e workflow
-
-- Editors: Zed, VS Code
-- Version control: Git, GitHub
-- Package Managers: Bun, npm
-- Ambiente: Linux (Omarchy)
-
-## <img src="./hd-highlights.svg" width="620" alt="Como trabalho" />
-
-Otimizo Core Web Vitals e cuido da user experience. Uso type safety no TypeScript para reduzir bugs e procuro escrever código que seja fácil de manter e possa crescer com a aplicação.
-
-Minha stack inclui Next.js 16, React 19, Hono e Bun. Posso atuar no frontend e no backend, conforme o projeto precisar. Ao longo do trabalho, envio atualizações regulares e mantenho contato para discutir o andamento.
-
-## <img src="./hd-stats.svg" width="620" alt="GitHub Stats e atividade" />
-
-<div align="center">
-
-<img src="./streak.svg" width="620" alt="Streak atual e mais longo de contribuições de Eduardo Augusto" />
-
-<img src="./langs.svg" width="620" alt="Principais linguagens de Eduardo Augusto, por bytes e por repositório" />
-
-<img src="./year.svg" width="620" alt="O último ano de contribuições de Eduardo Augusto, um caractere por dia" />
-
-</div>
-
-## <img src="./hd-contact.svg" width="620" alt="Contato" />
-
-Atuo com:
-
-- Desenvolvimento com Next.js
-- APIs com Hono, Express, Fastify
-- Otimização de performance web
-
-> Tem um projeto em mente? Me manda os detalhes.
-> [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
-
-[discord](https://discord.com/users/909580127644549201) &nbsp;·&nbsp;
-[youtube](https://www.youtube.com/@eduardo.developer) &nbsp;·&nbsp;
-[instagram](https://www.instagram.com/eduardoaugustolb/)
+[Discord](https://discord.com/users/909580127644549201) &nbsp;·&nbsp;
+[Instagram](https://www.instagram.com/eduardoaugustolb/)

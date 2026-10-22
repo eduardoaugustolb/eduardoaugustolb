@@ -76,8 +76,8 @@ VIGNETTE = True            # gentle vertical fade: the top (hair)
 VIG_TOP = 0.10             # and bottom (chin) bands taper instead of cutting
 VIG_BOT = 0.06             # straight off — sides and face size untouched
 
-FG_LIGHT = "#6e7681"       # readable on GitHub light — the portrait's grey
-FG_DARK = "#c9d1d9"        # and its dark-mode step
+FG_LIGHT = "#655d53"       # readable on GitHub light — the portrait's grey
+FG_DARK = "#d8d0c3"        # and its dark-mode step
 CHAR_W = 7.74              # 0.600 em at FONT_SIZE — keep these in step
 FONT_SIZE = 12.9
 LINE_H = 15

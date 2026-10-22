@@ -62,10 +62,10 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
 """
 
 # The portrait's ink is the data ink, so every graphic reads as one material.
-LIGHT = dict(data="#6e7681", emph="#424a53", dim="#8c959f",
-             rule="#d8dee4", surface="#ffffff")
-DARK = dict(data="#c9d1d9", emph="#f0f6fc", dim="#8b949e",
-            rule="#30363d", surface="#0d1117")
+LIGHT = dict(data="#655d53", emph="#403a34", dim="#746b60",
+             rule="#ded8ce", surface="#ffffff")
+DARK = dict(data="#d8d0c3", emph="#f3eee5", dim="#ada394",
+            rule="#3a3631", surface="#0d1117")
 # JBMono is the inlined subset below; the rest is a fallback for the unlikely
 # case a renderer ignores the embedded face.
 MONO = ("JBMono,ui-monospace,SFMono-Regular,Menlo,Consolas,"

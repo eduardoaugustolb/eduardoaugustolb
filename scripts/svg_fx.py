@@ -107,9 +107,9 @@ def animated_text(x, y, text, size, fill=None, cls=None, anchor="start",
 
 def shine_style():
     """CSS for the shine gradient stops, in both color schemes."""
-    return (".sh0{stop-color:#6e7681}.sh1{stop-color:#ffffff}"
+    return (".sh0{stop-color:#655d53}.sh1{stop-color:#ffffff}"
             "@media(prefers-color-scheme:dark)"
-            "{.sh0{stop-color:#c9d1d9}.sh1{stop-color:#f0f6fc}}")
+            "{.sh0{stop-color:#d8d0c3}.sh1{stop-color:#f3eee5}}")
 
 
 def shine_grad(gid, dur=3.60, begin=0.0):
