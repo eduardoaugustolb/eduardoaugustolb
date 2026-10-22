@@ -2,7 +2,9 @@
   <a href="./README.md">English</a> &nbsp;·&nbsp; <strong>Português (BR)</strong> &nbsp;·&nbsp; <a href="./README.es.md">Español</a>
 </p>
 
-# Eduardo Augusto - Developer | Next.js, TypeScript & Backend
+# Eduardo Augusto · Eduardo Developer
+
+Desenvolvedor full stack com TypeScript, React, Next.js, Node.js e Go.
 
 <p align="center">
   <img src="./ascii.svg" width="280" alt="Retrato de Eduardo Augusto em ASCII art" />
@@ -20,7 +22,8 @@ Também desenvolvo backends com Hono, Express e Fastify. Conforme surgem novos p
 
 Gosto muito de estudar Clean Architecture, Hexagonal Architecture, DDD e TDD.
 
-Estou disponível para oportunidades de trabalho e projetos freelance: [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
+Estou disponível para oportunidades de trabalho e projetos freelance: [contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)<br>
+Portfólio: [eduardoaugusto.work](https://eduardoaugusto.work/)
 
 ## <img src="./hd-projects.svg" width="620" alt="Projetos" />
 
