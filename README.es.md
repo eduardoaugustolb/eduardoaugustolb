@@ -11,7 +11,7 @@
 
 Desarrollo interfaces web rápidas y fáciles de usar y los backends que las sustentan, con atención al rendimiento, type safety y código fácil de mantener.
 
-[Portafolio](https://eduardoaugusto.work/) &nbsp;·&nbsp; [YouTube](https://www.youtube.com/@eduardo.developer) &nbsp;·&nbsp; [Contacto](mailto:contato@eduardoaugusto.work)
+<a href="https://eduardoaugusto.work/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/paper/globe.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/ink/globe.svg" width="24" height="24" alt="" /></picture> Portafolio</a> &nbsp;·&nbsp; <a href="https://www.youtube.com/@eduardo.developer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/youtube.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/youtube.svg" height="28" alt="YouTube" /></picture></a> &nbsp;·&nbsp; <a href="mailto:contato@eduardoaugusto.work"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/paper/mail.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/ink/mail.svg" width="24" height="24" alt="" /></picture> Contacto</a>
 
 <p align="center">
 <picture>
@@ -20,7 +20,7 @@ Desarrollo interfaces web rápidas y fáciles de usar y los backends que las sus
 </picture>
 </p>
 
-## Proyectos
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/paper/folder.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/ink/folder.svg" width="24" height="24" alt="" /></picture> Proyectos
 
 ### [Versum](https://github.com/eduardoaugustolb/versum)
 
@@ -34,23 +34,46 @@ Automatización para un perfil de afiliados de streetwear y fragancias: sincroni
 
 En desarrollo · TypeScript, Bun · Clean Architecture y arquitectura hexagonal.
 
-## Tecnologías
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/paper/code.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/ink/code.svg" width="24" height="24" alt="" /></picture> Tecnologías
 
-**Frontend:** TypeScript, React, Next.js, Tailwind CSS<br>
-**Backend:** Node.js, Bun, Go, Hono, Express, Fastify, PostgreSQL, Redis, Drizzle ORM<br>
-**Herramientas:** Git, GitHub, Zed, VS Code, Linux
+**Frontend:**
 
-## Actividad
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/typescript.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/typescript.svg" height="28" alt="TypeScript" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/react.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/react.svg" height="28" alt="React" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/next-js.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/next-js.svg" height="28" alt="Next.js" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/tailwind-css.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/tailwind-css.svg" height="28" alt="Tailwind CSS" /></picture>
+</p>
+**Backend:**
+
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/node-js.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/node-js.svg" height="28" alt="Node.js" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/bun.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/bun.svg" height="28" alt="Bun" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/go.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/go.svg" height="28" alt="Go" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/postgresql.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/postgresql.svg" height="28" alt="PostgreSQL" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/redis.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/redis.svg" height="28" alt="Redis" /></picture>
+</p>
+Hono · Express · Fastify · Drizzle ORM
+**Herramientas:**
+
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/git.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/git.svg" height="28" alt="Git" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/github.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/github.svg" height="28" alt="GitHub" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/linux.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/linux.svg" height="28" alt="Linux" /></picture>
+</p>
+Zed · VS Code
+
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/paper/chart.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/ink/chart.svg" width="24" height="24" alt="" /></picture> Actividad
 
 <p align="center">
   <img src="./year.svg" width="620" alt="Contribuciones en GitHub durante el último año, un carácter por día" />
 </p>
 
-## Contacto
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/paper/message-circle.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/ink/message-circle.svg" width="24" height="24" alt="" /></picture> Contacto
 
 Disponible para oportunidades laborales y proyectos freelance. ¿Tienes un proyecto en mente? Envíame los detalles.
 
-[contato@eduardoaugusto.work](mailto:contato@eduardoaugusto.work)
+<a href="mailto:contato@eduardoaugusto.work"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/paper/mail.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/svg/ink/mail.svg" width="24" height="24" alt="" /></picture> contato@eduardoaugusto.work</a>
 
-[Discord](https://discord.com/users/909580127644549201) &nbsp;·&nbsp;
-[Instagram](https://www.instagram.com/eduardoaugustolb/)
+<a href="https://discord.com/users/909580127644549201"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/discord.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/discord.svg" height="28" alt="Discord" /></picture></a> &nbsp;·&nbsp;
+<a href="https://www.instagram.com/eduardoaugustolb/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/dark/instagram.svg" /><img src="https://raw.githubusercontent.com/eduardoaugustolb/assets/98579f34f5746755a4f1c692c7b00f2e5a3f5b0e/icons/badges/light/instagram.svg" height="28" alt="Instagram" /></picture></a>
